@@ -1,0 +1,40 @@
+.tinyscrollbar {
+  overflow-y: scroll;
+}
+.tinyscrollbar .viewport {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.tinyscrollbar .overview {
+  position: absolute;
+  width: 100%;
+}
+.tinyscrollbar .scrollbar {
+  position: relative;
+  float: right;
+  width: 10px;
+}
+.tinyscrollbar .track {
+  background: #e2e0e0;
+}
+.tinyscrollbar .thumb {
+  background: #ff037a;
+  position: absolute;
+  width: 10px;
+  border-radius: 5px;
+}
+.tinyscrollbar .disable {
+  display: none;
+}
+.tinyscrollbar-horizontal .scrollbar {
+  height: 10px;
+  float: none;
+  margin-top: -10px;
+}
+.tinyscrollbar-horizontal .track {
+  height: 10px;
+}
+.tinyscrollbar-horizontal .thumb {
+  height: 10px;
+}
