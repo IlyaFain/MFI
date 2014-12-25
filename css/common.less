@@ -354,27 +354,47 @@ a {
 
 
 
+.b-direction__item {
+	margin-bottom: 24px;
 
+	img {
+		max-width: 100%
+	}
+}
+
+@media screen and (max-width: 1279px) {
+	.b-direction__item {
+		height: 215px;
+		overflow: hidden;
+	}
+}
+
+.b-direction__item-wrapper {
+	position: relative;
+	height: 100%;
+}
 
 .b-direction__link {
+	position: absolute;
+	top: 0;
 	display: block;
-	height: 215px;
-	margin-bottom: 30px;
+	width: 100%;
+	height: 100%;
 	line-height: 215px;
-	font-weight: bold;
-	font-size: 26px;
+	
 	text-align: center;
 	color: #fff; &:hover,&:focus { color: #fff; text-decoration: none;}
 	text-decoration: none;
-	text-transform: uppercase;
+	
 	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.15);
 	.background-size(cover);
 	background-position: center center;
 
-	& > span {
-		display: inline-block;
-		line-height: normal;
-		vertical-align: middle;
+	.centering-the-unknown();
+
+	&:hover {
+		.b-direction__title { display: none; }
+		.b-direction__text { display: inline-block; }
 	}
 
 	&._sec { background-image: url(../img/bg/sec.png) }
@@ -383,8 +403,37 @@ a {
 	&._fraud { background-image: url(../img/bg/fraud.png) }
 }
 
+.b-direction__title {
+	display: inline-block;
+	line-height: normal;
+	vertical-align: middle;
+	font-weight: bold;
+	font-size: 26px;
+	text-transform: uppercase;
+}
+
+.b-direction__text {
+	display: none;
+	/* display: inline-block; */
+	line-height: normal;
+	vertical-align: middle;
+	font-size: 14px;
+	padding: 15px;
+
+	._traff & {
+		color: #555;
+		text-shadow: none;
+	}
+}
+
+@media screen and (max-width: 1279px) {
+	.b-direction__text {
+		padding: 25px;
+	}
+}
+
 @media screen and (min-width: 1280px) and (max-width: 1700px) {
-	.b-direction__link {
+	.b-direction__title {
 		font-size: 20px;
 	}
 }
@@ -417,6 +466,14 @@ a {
 	margin-top: 4px;
 }
 
+.b-subscribe__text-col {
+	width: 80px !important;
+}
+
+.b-subscribe__form-col {
+	padding-right: 0 !important;
+}
+
 .b-subscribe__email {
 	.box-sizing(border-box);
 	float: left;
@@ -438,6 +495,9 @@ a {
 	font-weight: bold;
 	letter-spacing: -0.3px;
 	line-height: 30px;
+
+	&:hover { background: lighten(@violet, 5%); }
+	&:active { background: darken(@violet, 5%); }
 }
 
 .b-subscribe__checkbox {
@@ -531,7 +591,9 @@ a {
 
 
 
-
+.b-clients {
+	cursor: arrow;
+}
 
 .b-clients .col-xs-1 {
 	display: inline-block !important;
@@ -548,6 +610,7 @@ a {
 		height: 12px;
 		background: @violet;
 		border-radius: 0;
+		.grab();
 	}
 
 	.track {

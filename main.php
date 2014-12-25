@@ -21,17 +21,41 @@ define('PAGE_TITLE', 'Главная страница');
 
 
 <div class="row b-direction _mb-xs">
-	<div class="col-xs-6 col-lg-3">
-		<a href="" class="b-direction__link _sec"><span>Информационная<br>безопасность</span></a>
+	<div class="col-xs-6 col-lg-3 b-direction__item">
+		<div class="b-direction__item-wrapper">
+			<img src="img/bg/direction_square.png" alt="">
+			<a href="" class="b-direction__link _sec">
+				<span class="b-direction__title">Информационная<br>безопасность</span>
+				<span class="b-direction__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque alias dolor perferendis, voluptatum numquam inventore voluptas quod, fugit quia beatae odio magni repellat quos eaque accusamus id, ipsa reprehenderit.</span>
+			</a>
+		</div>
 	</div>
-	<div class="col-xs-6 col-lg-3">
-		<a href="" class="b-direction__link _sorm"><span>СОРМ</span></a>
+	<div class="col-xs-6 col-lg-3 b-direction__item">
+		<div class="b-direction__item-wrapper">
+			<img src="img/bg/direction_square.png" alt="">
+			<a href="" class="b-direction__link _sorm">
+				<span class="b-direction__title">СОРМ</span>
+				<span class="b-direction__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ab ex fugiat aspernatur velit repellendus placeat dolores optio obcaecati, ullam incidunt quasi id amet, perferendis nulla quo suscipit accusantium, voluptate.</span>
+			</a>
+		</div>
 	</div>
-	<div class="col-xs-6 col-lg-3">
-		<a href="" class="b-direction__link _traff"><span>Фильтрация<br>траффика</span></a>
+	<div class="col-xs-6 col-lg-3 b-direction__item">
+		<div class="b-direction__item-wrapper">
+			<img src="img/bg/direction_square.png" alt="">
+			<a href="" class="b-direction__link _traff">
+				<span class="b-direction__title">Фильтрация<br>трафика</span>
+				<span class="b-direction__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium officiis reiciendis soluta, minus repudiandae dolorem eos hic sapiente animi quam nobis dolores natus velit voluptatibus culpa, inventore cupiditate maiores rem?</span>
+			</a>
+		</div>
 	</div>
-	<div class="col-xs-6 col-lg-3">
-		<a href="" class="b-direction__link _fraud"><span>Антифрод</span></a>
+	<div class="col-xs-6 col-lg-3 b-direction__item">
+		<div class="b-direction__item-wrapper">
+			<img src="img/bg/direction_square.png" alt="">
+			<a href="" class="b-direction__link _fraud">
+				<span class="b-direction__title">Антифрод</span>
+				<span class="b-direction__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores laborum nesciunt voluptate inventore eaque iusto illo totam ipsum possimus sunt, iste, voluptatem ab, laboriosam. Eligendi consequuntur ipsum inventore autem atque.</span>
+			</a>
+		</div>
 	</div>
 </div>
 
@@ -71,7 +95,7 @@ define('PAGE_TITLE', 'Главная страница');
 
 
 	<div class="col-xs-6 col-lg-4 col-lg-push-4">
-		<h2>Мероприятия</h2>
+		<h2 class="hidden-lg">Мероприятия</h2>
 
 		<div id="slider_events" class="b-video-slider__list">
 			<div class="b-video-slider__item">
@@ -135,15 +159,15 @@ define('PAGE_TITLE', 'Главная страница');
 
 		
 		<div class="row b-subscribe">
-			<div class="col-xs-3">Подписка на&nbsp;новости</div>
-			<div class="col-xs-9">
+			<div class="col-xs-3 b-subscribe__text-col">Подписка на&nbsp;новости</div>
+			<div class="col-xs-9 b-subscribe__form-col">
 				<form action="" method="post" class="b-subscribe__form">
 					<div class="_clearfix">
-						<input class="b-subscribe__email" type="email" placeholder="Ваш e-mail">
+						<input class="b-subscribe__email" type="email" placeholder="Ваш e-mail" required>
 						<input class="b-subscribe__submit" type="submit" value="Подписаться">
 					</div>
 					<label class="b-subscribe__checkbox">
-						<input type="checkbox">
+						<input type="checkbox" required>
 						Согласен с <a class="_underline" href="#">Правилами подписки</a>
 					</label>
 				</form>
