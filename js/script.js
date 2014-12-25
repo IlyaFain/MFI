@@ -152,7 +152,6 @@ $(function()
 	;(function LawsShowMore()
 	{
 		var $items = $('#laws_list').children().filter("#laws_item_third ~ li");
-		console.log($items);
 
 		$('#laws_more').click(function()
 		{
@@ -163,6 +162,30 @@ $(function()
 	})();
 
 
+
+
+
+
+
+	// data-equalheight (см. modules/equalheight.js) применяется дл элементов с общим родителем
+	// а этот - для произвольных элементов
+	(function EqualHeightAny()
+	{
+		var resize = function()
+		{
+			var M = [];
+
+			$('[data-equalheight-any]').filter(':visible')
+				.css("min-height", "0")
+				.each(function(index, element){ M.push($(element).outerHeight()); })
+				.css("min-height", Math.max.apply(null,M) + "px");
+		};
+
+		$window.onTimeout("resize", resize, 50);
+
+		resize();
+
+	})();
 
 
 

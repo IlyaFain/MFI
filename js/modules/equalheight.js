@@ -81,21 +81,3 @@
 
 })();
 
-
-
-
-
-
-
-
-
-/* не требует, чтобы у элементов был общий родитель */
-function EqualHeightAny(selector)
-{
-	if (typeof $ == "undefined") return;
-
-	var M = [];
-	$(selector)
-		.each(function(index, el){ M.push($(el).height()) })
-		.height(Math.max.apply(Math,M))
-};

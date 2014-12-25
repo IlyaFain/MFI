@@ -166,22 +166,22 @@ define('PAGE_TITLE', 'Главная страница');
 		<h2>Отзывы</h2>
 	</div>
 
-	<div class="col-xs-6 col-lg-4" data-equalheight>
+	<div class="col-xs-6 col-lg-4">
 		<div class="b-replies__square _red">О продукте «Гарда БД»</div>
 		<h4 class="b-replies__author"><img src="img/logo/cps.png" alt="«CPS»"> Компания «CPS»</h4>
-		<div class="b-replies__text">Существует несколько веских причин для использования «Периметра» в нашем дата-центре. Во-первых, мы считаем, что защита российских ресурсов должна производиться на базе отечественных разработок, соответствующих требованиям местных регуляторов. Во-вторых, для обеспечения клиентов сервисом наивысшего качества. Исходя из этих требований, мы провели отбор претендентов на основе как независимой экспертизы, так и собственного тестирования. Вывод – на данный момент «МФИ Софт» предоставляет лучшее решение на рынке.</div>
+		<div class="b-replies__text" data-equalheight-any>Существует несколько веских причин для использования «Периметра» в нашем дата-центре. Во-первых, мы считаем, что защита российских ресурсов должна производиться на базе отечественных разработок, соответствующих требованиям местных регуляторов. Во-вторых, для обеспечения клиентов сервисом наивысшего качества. Исходя из этих требований, мы провели отбор претендентов на основе как независимой экспертизы, так и собственного тестирования. Вывод – на данный момент «МФИ Софт» предоставляет лучшее решение на рынке.</div>
 	</div>
 
-	<div class="col-xs-6 col-lg-4" data-equalheight>
+	<div class="col-xs-6 col-lg-4">
 		<div class="b-replies__square _yellow">О продукте «Гарда БД»</div>
 		<h4 class="b-replies__author"><img src="img/logo/kraftway.png" alt="Kraftway"> Kraftway</h4>
-		<div class="b-replies__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat necessitatibus, est. Dolores id reiciendis aut ratione, aliquam doloribus perspiciatis consequatur corporis, sed, quisquam quam sequi minus sint, non. Amet.</div>
+		<div class="b-replies__text" data-equalheight-any>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat necessitatibus, est. Dolores id reiciendis aut ratione, aliquam doloribus perspiciatis consequatur corporis, sed, quisquam quam sequi minus sint, non. Amet.</div>
 	</div>
 
-	<div class="col-xs-6 col-lg-4 visible-lg" data-equalheight>
+	<div class="col-xs-6 col-lg-4 visible-lg">
 		<div class="b-replies__square _blue">О продукте «СОРМ»</div>
 		<h4 class="b-replies__author"><img src="img/logo/kraftway.png" alt="Kraftway"> Kraftway</h4>
-		<div class="b-replies__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores veniam in suscipit odio corrupti, autem quos recusandae obcaecati necessitatibus cum labore numquam eos aperiam provident ullam voluptatum unde dolorem accusamus. Sed placeat necessitatibus, est. Dolores id reiciendis aut ratione, aliquam doloribus perspiciatis consequatur corporis, sed, quisquam quam sequi minus sint, non. Amet.</div>
+		<div class="b-replies__text" data-equalheight-any>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores veniam in suscipit odio corrupti, autem quos recusandae obcaecati necessitatibus cum labore numquam eos aperiam provident ullam voluptatum unde dolorem accusamus. Sed placeat necessitatibus, est. Dolores id reiciendis aut ratione, aliquam doloribus perspiciatis consequatur corporis, sed, quisquam quam sequi minus sint, non. Amet.</div>
 	</div>
 </div>
 
