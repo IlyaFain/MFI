@@ -587,6 +587,7 @@ footer a {
   border: 0;
   background: none;
   font-size: 0;
+  outline: none;
 }
 .slick-dots > li > button:before {
   content: "■ ";

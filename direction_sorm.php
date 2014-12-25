@@ -4,6 +4,7 @@ define('PAGE_TITLE', 'Направление - СОРМ');
 
 <? require_once('templates/header.php'); ?>
 
+<!-- раскраска направлений осуществляется классами _green, _blue, _yellow и _violet для .b-direction-page -->
 
 <div class="col-xs-10 b-content  b-direction-page _blue" data-equalheight>
 

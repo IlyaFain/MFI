@@ -4,6 +4,7 @@ define('PAGE_TITLE', 'Направление - Информационная бе
 
 <? require_once('templates/header.php'); ?>
 
+<!-- раскраска направлений осуществляется классами _green, _blue, _yellow и _violet для .b-direction-page -->
 
 <div class="col-xs-10 b-content b-direction-page _violet" data-equalheight>
 
@@ -20,7 +21,7 @@ define('PAGE_TITLE', 'Направление - Информационная бе
 
 	<div class="b-products _mb-l">
 		<h2>Наши продукты</h2>
-		<? require_once("templates/direction_fms_intro.php") ?>
+		<? require_once("templates/direction_garda_intro.php") ?>
 	</div>
 
 

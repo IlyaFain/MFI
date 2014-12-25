@@ -1,18 +1,63 @@
-<?
-define('PAGE_TITLE', 'Направление - Антифрод');
-?>
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Направление - Периметр | Название сайта</title>
 
-<? require_once('templates/header.php'); ?>
+	<link href="css/default/reset.css" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+		<link href="css/common.css?25.12.14-13:10" rel="stylesheet">
+
+
+</head>
+<body>
+<noscript><b>В вашем браузере выключен javascript!</b> Полная функциональность сайта может быть недоступна.</noscript>
+
+
+
+<div class="row b-all">
+
+
+	<div id="sidebar" class="col-xs-2 b-sidebar" data-equalheight>
+
+		<button id="menu_button" class="b-sidebar__menu-button"><i></i></button>
+
+		<nav>
+			<ul>
+				<li><a title="Решения" href="#"><i class="i-sidebar _solution"></i><span>Решения</span></a></li>
+				<li><a title="Компания" href="#"><i class="i-sidebar _company"></i><span>Компания</span></a></li>
+				<li><a title="Мероприятия" href="#"><i class="i-sidebar _events"></i><span>Мероприятия</span></a></li>
+				<li><a title="Пресс-центр" href="#"><i class="i-sidebar _press"></i><span>Пресс-центр</span></a></li>
+				<li><a title="Партнеры" href="#"><i class="i-sidebar _partners"></i><span>Партнеры</span></a></li>
+				<li><a title="Контакты" href="#"><i class="i-sidebar _contacts"></i><span>Контакты</span></a></li>
+			</ul>
+		</nav>
+
+		<div class="b-sidebar__phone">
+			<div class="b-sidebar__phone-number"><span>8 (831) 220-32-22</span></div>
+			<div class="b-sidebar__phone-button">
+				<button id="sidebar_phone" title="Перезвоните мне"><i class="i-sidebar _phone"></i><span>Перезвоните мне</span></button>
+			</div>
+		</div>
+
+		<a id="sidebar_goto_top" href="#" class="b-sidebar__goto-top">Наверх</a>
+	</div>
+
 
 <!-- раскраска направлений осуществляется классами _green, _blue, _yellow и _violet для .b-direction-page -->
 
-<div class="col-xs-10 b-content b-direction-page _green" data-equalheight>
+<div class="col-xs-10 b-content b-direction-page _yellow" data-equalheight>
 
 
 	<div class="b-intro _border-bottom">
-		<img class="b-intro__logo" src="img/logo/directions/antifraud.png" alt="МФИ-Софт">
+		<img class="b-intro__logo" src="img/logo/directions/perimetr.png" alt="МФИ-Софт">
 		<div class="b-intro__text">
-			<h1>Антифрод</h1>
+			<h1>Периметр</h1>
 			Компания МФИ Софт разрабатывает системы защиты от внутренних угроз <br> информационной безопасности
 		</div>
 	</div>
@@ -21,8 +66,35 @@ define('PAGE_TITLE', 'Направление - Антифрод');
 
 	<div class="b-products _mb-l">
 		<h2>Наши продукты</h2>
-		<? require_once("templates/direction_fms_intro.php") ?>
-	</div>
+			<div class="row">
+		<div class="col-xs-4">
+			<div class="b-product-intro">
+				<div class="b-product-intro__text _border-right">
+					<img class="b-product-intro__logo" src="img/logo/products/perimetr.png" alt="Периметр">
+					<h3><a class="b-product-intro__link" href="#">Периметр</a></h3>
+					<p>Фильтрация трафика, комплексная защита от DDoS-атак</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-4">
+			<div class="b-product-intro">
+				<div class="b-product-intro__text _border-right">
+					<img class="b-product-intro__logo" src="img/logo/products/perimetr.png" alt="Периметр-Ф">
+					<h3><a class="b-product-intro__link" href="#">Периметр-Ф</a></h3>
+					<p>Фильтрация трафика, комплексная защита от DDoS-атак</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-4">
+			<div class="b-product-intro">
+				<div class="b-product-intro__text">
+					<img class="b-product-intro__logo" src="img/logo/products/perimetr.png" alt="Семейный интернет">
+					<h3><a class="b-product-intro__link" href="#">Семейный интернет</a></h3>
+					<p>Фильтрация трафика, комплексная защита от DDoS-атак</p>
+				</div>
+			</div>
+		</div>
+	</div>	</div>
 
 
 
@@ -402,4 +474,45 @@ define('PAGE_TITLE', 'Направление - Антифрод');
 
 
 
-	<? require_once('templates/footer.php'); ?>
+	
+		<footer class="row">
+			<div class="col-xs-4">
+				<div>© МФИ Софт 2007-2014</div>
+				<a class="_underline" href="#">Конфиденциальность и безопасность</a>
+			</div>
+			<div class="col-xs-3">
+				<div>
+					<a href="#"><img src="img/logo/fb.png" alt=""></a>&nbsp;&nbsp;<a href="#"><img src="img/logo/vk.png" alt=""></a>
+				</div>
+				<a class="_underline" href="#">Контактная информация</a>
+			</div>
+			<div class="col-xs-3">
+				<div>+7 (831) 277 87 08</div>
+				<a class="_underline" href="#">Техническая поддержка</a>
+			</div>
+			<div class="col-xs-2">
+				<div><a href="http://xdes.ru/"><img src="img/logo/xdes.png" alt=""></a></div>
+				Разработка сайта
+			</div>
+		</footer>
+
+	</div>
+
+</div>
+
+
+	<script src="js/libs/jquery-1.10.2.min.js"></script>
+	<script src="js/libs/modernizr.all.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+		<script src="js/script.js?25.12.14-10:43"></script>
+	<script src="js/modules/resize.js?24.12.14-08:48"></script>
+	<script src="js/libs/slick.min.js?10.12.14-13:26"></script>
+	<script src="js/modules/equalheight.js?25.12.14-10:49"></script>
+	<script src="js/libs/jquery.tinyscrollbar.js?20.10.14-12:47"></script>
+
+
+
+</body>
+</html>
+
