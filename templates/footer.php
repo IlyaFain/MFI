@@ -1,4 +1,4 @@
-<!-- 
+
 		<footer class="row">
 			<div class="col-xs-4">
 				<div>© МФИ Софт 2007-2014</div>
@@ -23,7 +23,6 @@
 	</div>
 
 </div>
- -->
 
 
 	<script src="js/libs/jquery-1.10.2.min.js"></script>

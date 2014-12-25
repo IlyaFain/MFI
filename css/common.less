@@ -19,6 +19,8 @@
 ._mb-m            { margin-bottom: 30px }
 ._mb-l            { margin-bottom: 40px }
 ._mb-xl           { margin-bottom: 50px }
+._border-right    { border-right: 1px solid @light-gray }
+._border-bottom   { border-bottom: 1px solid @light-gray }
 
 /*--------------------- Универсальные модификаторы (конец) --------------------
 */
@@ -41,9 +43,11 @@ body {
 }
 
 h1,.h1 {
-	font-size: 48px;
+	font-size: 40px;
+	font-weight: 500;
 	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: 10px;
+	color: #616161;
 }
 
 h2,.h2 {
@@ -284,7 +288,7 @@ a {
 
 
 .b-content {
-	padding: 0 50px;
+	padding: 20px 50px 0;
 	background: #fff;
 	min-height: 100%;
 }
@@ -314,17 +318,17 @@ a {
 }
 
 .b-intro__logo {
-	display: inline-block;
-	vertical-align: middle;
+	float: left;
 	margin-right: 25px;
 }
 
 .b-intro__text {
-	width: 600px;
-	display: inline-block;
-	vertical-align: middle;
 	line-height: normal;
 }
+
+
+
+
 
 
 
@@ -374,13 +378,20 @@ a {
 
 
 .b-news__list > li {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+	overflow: hidden;
 
 	time {
 		display: block;
 		color: #6e0591;
 		margin-bottom: 5px;
 	}
+}
+
+.b-news__img {
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 15px;
 }
 
 .b-subscribe__form {
@@ -691,8 +702,6 @@ footer a {
 /*
 ----------------------- Стили структурных блоков (начало) -------------------*/
 @import "modules/tinyscrollbar.less";
-// @import "modules/имя_модуля.less";
-// @import "modules/имя_модуля.less";
 /*--------------------- Стили структурных блоков (конец) ----------------------
 */
 
@@ -702,8 +711,7 @@ footer a {
 
 /*
 ----------------------- Индивидуальные стили страниц (начало) ---------------*/
-// @import "modules/имя_страницы.less";
-// @import "modules/имя_страницы.less";
-// @import "modules/имя_страницы.less";
+@import "pages/direction.less";
+@import "pages/product.less";
 /*--------------------- Индивидуальные стили страниц (конец) ----------------
 */

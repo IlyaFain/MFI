@@ -1,0 +1,119 @@
+/*
+------------------------------ Направление (начало) --------------------------*/
+.b-product-intro {
+  height: 96px;
+  line-height: 96px;
+}
+.b-product-intro__logo {
+  float: left;
+  margin-right: 15px;
+}
+.b-product-intro__text {
+  line-height: normal;
+  min-height: 120px;
+}
+.b-product-intro__link {
+  display: inline-block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #6e0591;
+  border-bottom: 1px solid #e0d3e6;
+}
+.b-product-intro__link:hover {
+  text-decoration: none;
+}
+.b-products__sub {
+  padding-left: 134px;
+}
+.b-products__sub > li {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  width: 19.5%;
+  padding-right: 15px;
+}
+.b-solutions {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 60px;
+  line-height: 24px;
+  border: 1px solid;
+  overflow: hidden;
+}
+.b-solutions:before {
+  content: "i";
+  float: left;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  margin-right: 30px;
+  background: #888;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+}
+.b-solutions__wrapper {
+  position: relative;
+}
+.b-tasks__list {
+  margin-top: 40px;
+}
+.b-tasks__item {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.b-tasks__text {
+  display: block;
+  max-width: 250px;
+  margin: auto;
+  text-decoration: underline;
+}
+.icon-task {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  background-image: url(../img/icon/tasks.png);
+  background-repeat: no-repeat;
+}
+.icon-task._risk {
+  background-position: 0px 0px;
+}
+.icon-task._db {
+  background-position: -100px 0px;
+}
+.icon-task._comm {
+  background-position: -200px 0px;
+}
+.icon-task._reg {
+  background-position: 0px -100px;
+}
+.icon-task._detect {
+  background-position: -100px -100px;
+}
+.icon-task._control {
+  background-position: -200px -100px;
+}
+.b-laws__subtitle {
+  position: relative;
+  top: -10px;
+}
+.b-laws__item {
+  padding-left: 70px;
+  background: url(../img/icon/law.png) 30px 5px no-repeat;
+}
+.b-laws__link {
+  display: block;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+.b-laws__text {
+  font-size: 12px;
+  line-height: 20px;
+  color: #333;
+}
+/*------------------------------ ИМЯ_СТРАНИЦЫ (конец) ---------------------------*/

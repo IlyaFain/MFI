@@ -1,5 +1,5 @@
 <?
-define('PAGE_TITLE', 'Направление');
+	define('PAGE_TITLE', 'Пустая страница');
 ?>
 
 <? require_once('templates/header.php'); ?>
