@@ -6,13 +6,79 @@
 ------------------------------ Направление (начало) --------------------------*/
 
 
+.b-direction-page {
+	&._green {
+		.b-apply,
+		.btn.active,
+		.btn.btn-direction,
+		.b-solutions:before,
+		.b-video-slider__list,
+		.b-clients .tinyscrollbar .thumb { background-color: @green; }
+		.b-intro._border-bottom,
+		.b-solutions,
+		.btn.active { border-color: @green }
+	}
+
+	&._yellow {
+		.b-apply,
+		.btn.active,
+		.btn.btn-direction,
+		.b-solutions:before,
+		.b-video-slider__list,
+		.b-clients .tinyscrollbar .thumb { background-color: @yellow; color: #616161; text-shadow: none }
+		.b-intro._border-bottom,
+		.b-solutions,
+		.btn.active { border-color: @yellow }
+
+		.b-apply h2 { color: #616161;}
+	}
+
+	&._blue {
+		.b-apply,
+		.btn.active,
+		.btn.btn-direction,
+		.b-solutions:before,
+		.b-video-slider__list,
+		.b-clients .tinyscrollbar .thumb { background-color: @blue; }
+		.b-intro._border-bottom,
+		.b-solutions,
+		.btn.active { border-color: @blue }
+	}
+
+	&._violet {
+		.b-apply,
+		.btn.active,
+		.btn.btn-direction,
+		.b-solutions:before,
+		.b-video-slider__list,
+		.b-clients .tinyscrollbar .thumb { background-color: @violet; }
+		.b-intro._border-bottom,
+		.b-solutions,
+		.btn.active { border-color: @violet }
+	}
+}
 
 
 
+.b-products {
+
+	._border-right .b-product-intro__text {
+		padding-right: 0;
+	}
+
+	._border-right + div .b-product-intro__text {
+		padding-left: 15px;
+	}
+
+	._border-bottom {
+		padding-bottom: 25px;
+		margin-bottom: 30px;
+	}
+}
 
 .b-product-intro {
-	height: 96px;
-	line-height: 96px;
+	height: 120px;
+	overflow: hidden;
 }
 
 .b-product-intro__logo {
@@ -23,12 +89,14 @@
 .b-product-intro__text {
 	line-height: normal;
 	min-height: 120px;
+	padding-right: 15px;
 }
 
 .b-product-intro__link {
 	display: inline-block;
 	margin-bottom: 10px;
-	text-decoration: none; &:hover { text-decoration: none;}
+	text-decoration: none; &:hover { text-decoration: none; }
+	white-space: nowrap;
 	color: #6e0591;
 	border-bottom: 1px solid #e0d3e6;
 }
@@ -49,7 +117,7 @@
 
 
 .b-solutions {
-	width: 70%;
+	max-width: 970px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 20px 60px;
@@ -79,7 +147,64 @@
 
 
 
+.b-reports__buttons {
+	.btn.btn-default {
+		color: #616161;
+	}
+	.btn.active {
+		color: #fff;
+		background-color: #888;
+		text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.15);
+	}
+}
 
+
+
+
+.btn-direction {
+	border-radius: 0;
+	.fluid-button(43px, 15px);
+	color: #fff; &:hover { color: #fff; }
+	background-color: #888;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
+.b-apply {
+	height: 280px;
+	padding: 45px 100px;
+	background-color: #888;
+	color: #fff;
+	background-image: url(../img/bg/pattern.png);
+	background-position: 50% 30%;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.15);
+
+	h2 { color: #fff;}
+
+	ul {
+		padding-top: 15px;
+
+		& > li {
+			position: relative;
+			padding-left: 35px;
+			margin-bottom: 13px;
+			font-size: 16px;
+			font-weight: 500;
+
+			&:before {
+				content: "■ ";
+				position: absolute;
+				left: 0;
+				top: 0;
+				font-size: 24px;
+				line-height: 15px;
+			}
+		}
+	}
+}
 
 
 
@@ -113,6 +238,9 @@
 	height: @size;
 	background-image: url(../img/icon/tasks.png);
 	background-repeat: no-repeat;
+	.transition(all 0.3s);
+
+	&:hover { .transform(scale(1.05))}
 
 	&._risk    { .sprite(0,0,@size,@size) }
 	&._db      { .sprite(1,0,@size,@size) }
@@ -150,7 +278,76 @@
 	font-size: 12px;
 	line-height: 20px;
 	color: #333;
-	;
 }
+
+.b-laws__more {
+
+	& > span {
+		border-bottom: 1px dotted;
+	}
+
+	& > span:before {
+		content: "Показать всё"
+	}
+
+	& > i {
+		display: inline-block;
+		vertical-align: middle;
+		width: 16px;
+		height: 16px;
+		margin-left: 5px;
+		background: url(../img/icon/more.png) center center no-repeat;
+	}
+
+	&._open {
+		& > span:before {
+			content: "Скрыть"
+		}
+
+		& > i {
+			.rotate(180);
+		}
+	}
+}
+
+
+
+
+
+
+ .b-video-slider._direction {
+ 	color: #fff;
+
+ 	.b-video-slider__text {
+ 		padding: 25px 25px 10px;
+ 	}
+
+ 	.slick-dots > li > button:before {
+ 		font-size: 38px;
+ 		color: #fff;
+ 	}
+
+ 	.slick-dots > li {
+		.opacity(0.6);
+ 	}
+
+ 	.slick-dots > li.slick-active {
+ 		.opacity(1);
+ 	}
+
+ 	.slick-dots > li > button {
+ 		width: 23px;
+ 	}
+
+ 	.slick-dots {
+ 		margin-bottom: 15px;
+ 	}
+ }
+
+
+
+
+
+
 
 /*------------------------------ ИМЯ_СТРАНИЦЫ (конец) ---------------------------*/

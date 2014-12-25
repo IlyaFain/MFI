@@ -19,6 +19,7 @@
 ._mb-m            { margin-bottom: 30px }
 ._mb-l            { margin-bottom: 40px }
 ._mb-xl           { margin-bottom: 50px }
+._mb-xxl          { margin-bottom: 60px }
 ._border-right    { border-right: 1px solid @light-gray }
 ._border-bottom   { border-bottom: 1px solid @light-gray }
 
@@ -70,6 +71,17 @@ a {
 	text-decoration: none;
 	&:hover { color: lighten(@color, 15%) }
 	&:active { color: lighten(@color, 30%) }
+}
+
+
+.btn {
+	font-size: 16px;
+	font-weight: 500;
+	border-radius: 0;
+
+	&:focus { outline: none !important }
+
+	&.active { box-shadow: none }
 }
 
 
@@ -313,8 +325,15 @@ a {
 
 
 .b-intro {
-	height: 96px;
+	overflow: hidden;
+	min-height: 96px;
 	line-height: 96px;
+
+	&._border-bottom {
+		padding-bottom: 24px;
+		margin-bottom: 30px;
+		border-bottom: 3px solid;
+	}
 }
 
 .b-intro__logo {

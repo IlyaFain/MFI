@@ -74,7 +74,7 @@
 		start = function()
 		{
 			if (timer) clearTimeout(timer);
-			timer = setTimeout(callback, 100);
+			timer = setTimeout(callback, 50);
 		};
 
 	window.onresize = start;

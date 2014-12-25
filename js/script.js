@@ -128,4 +128,47 @@ $(function()
 
 
 
+	;(function BootstrapActiveTab()
+	{
+		$('[data-toggle=tab]').click(function(){
+			var $this = $(this);
+			if (!$this.hasClass('active'))
+			{
+				$this
+					.addClass('active')
+					.siblings()
+					.removeClass('active');
+			}
+		})
+	})();
+
+
+
+
+
+
+
+
+	;(function LawsShowMore()
+	{
+		var $items = $('#laws_list').children().filter("#laws_item_third ~ li");
+		console.log($items);
+
+		$('#laws_more').click(function()
+		{
+			$items.toggleClass('hidden');
+			$(this).toggleClass("_open");
+			$window.trigger("resize");
+		})
+	})();
+
+
+
+
+
+
+
+
+
+
 });
