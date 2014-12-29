@@ -24,18 +24,16 @@ define('PAGE_TITLE', 'Продукты - FMS Payments');
 		</div>
 	</div>
 
-
-
 	<div class="b-submenu _mb-xxl">
 		<nav>
 			<ul>
-				<li><a href="#menu1">Описание</a></li>
-				<li><a href="#menu2">Схема подключения</a></li>
-				<li><a href="#menu3">Новости и мероприятия</a></li>
-				<li><a href="#menu4">Лицензии</a></li>
-				<li><a href="#menu5">Материалы и вебинары</a></li>
-				<li><a href="#menu6">Клиенты</a></li>
-				<li><a class="_fill" href="#">Получить консультацию</a></li>
+				<li class="b-submenu__item _descr"><a href="#menu1">Описание</a></li>
+				<li class="b-submenu__item _scheme"><a href="#menu2">Схема подключения</a></li>
+				<li class="b-submenu__item _articles"><a href="#menu3">Новости и мероприятия</a></li>
+				<li class="b-submenu__item _licences"><a href="#menu4">Лицензии</a></li>
+				<li class="b-submenu__item _materials"><a href="#menu5">Материалы и вебинары</a></li>
+				<li class="b-submenu__item _clients"><a href="#menu6">Клиенты</a></li>
+				<li class="b-submenu__item _consult"><a class="_fill" href="#">Получить консультацию</a></li>
 			</ul>
 		</nav>
 	</div>

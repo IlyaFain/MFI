@@ -26,6 +26,9 @@ $(function()
 
 		equalheight('[data-equalheight]');
 
+
+		$('nav').width($('.b-submenu').width());
+
 	}
 
 

@@ -35,6 +35,7 @@
 		antiCache('js/libs/slick.min.js');
 		antiCache('js/modules/equalheight.js');
 		antiCache('js/libs/jquery.tinyscrollbar.js');
+		antiCache('js/libs/waypoints.min.js');
 		
 	?>
 

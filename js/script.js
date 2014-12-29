@@ -6,6 +6,7 @@ $(function()
 {
 	var $window = $(window);
 	var $body = $('body');
+	var $htmlbody = $('html,body');
 
 	// обработка событий с отсечкой по таймауту
 	$.fn.onTimeout=function(e,t,n){var r=null,i=function(){if(r)clearTimeout(r);r=setTimeout(t,n)};return $(this).on(e,i)}
@@ -100,8 +101,7 @@ $(function()
 
 	;(function Sidebar()
 	{
-		var $sidebar = $('#sidebar'),
-			$htmlbody = $('html,body');
+		var $sidebar = $('#sidebar');
 
 		$('#menu_button').click(function()
 		{
@@ -197,11 +197,43 @@ $(function()
 	// Меню на стр. продукта
 	;(function ProductMenu()
 	{
-		$('.stages__item').addClass('_faded');
+		var $nav = $('nav'),
+			$li = $nav.find('li'),
+			detachPos = $('.b-submenu').offset().top - 15;
 
-		$('.stages__item').waypoint(function() {
-	  		$(this).removeClass('_faded');
-		}, { offset: $window.height() - 150 });
+		$li.find('a').click(function(event)
+		{
+			var scrollTop = $($(this).attr("href")).offset().top - 100;
+			event.preventDefault();
+			$htmlbody.stop(true,false).animate({scrollTop:scrollTop}, 500);
+		})
+
+		$('#menu1, #menu2, #menu3, #menu4, #menu5, #menu6').waypoint(
+			function()
+			{
+				var $current = $nav.find('[href=#' + $(this).attr("id") + ']');
+
+				$li.removeClass('_passed');
+
+				$current
+					.parent()
+					.addClass('_passed')
+					.prevAll()
+					.addClass('_passed');
+			},
+			{
+				//offset: $window.height() * 0.75
+			}
+		);
+
+
+		var onScroll = function()
+		{
+			$nav.toggleClass('_detached', $window.scrollTop() > detachPos);
+		}
+
+		$window.scroll(onScroll);
+		onScroll();
 
 	})();
 

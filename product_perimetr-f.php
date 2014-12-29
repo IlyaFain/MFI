@@ -29,13 +29,13 @@ define('PAGE_TITLE', 'Продукты - Периметр Ф');
 	<div class="b-submenu _mb-xxl">
 		<nav>
 			<ul>
-				<li><a href="#">Описание</a></li>
-				<li><a href="#">Схема подключения</a></li>
-				<li><a href="#">Новости и мероприятия</a></li>
-				<li><a href="#">Лицензии</a></li>
-				<li><a href="#">Материалы и вебинары</a></li>
-				<li><a href="#">Клиенты</a></li>
-				<li><a class="_fill" href="#">Получить консультацию</a></li>
+				<li class="b-submenu__item _descr"><a href="#menu1">Описание</a></li>
+				<li class="b-submenu__item _scheme"><a href="#menu2">Схема подключения</a></li>
+				<li class="b-submenu__item _articles"><a href="#menu3">Новости и мероприятия</a></li>
+				<li class="b-submenu__item _licences"><a href="#menu4">Лицензии</a></li>
+				<li class="b-submenu__item _materials"><a href="#menu5">Материалы и вебинары</a></li>
+				<li class="b-submenu__item _clients"><a href="#menu6">Клиенты</a></li>
+				<li class="b-submenu__item _consult"><a class="_fill" href="#">Получить консультацию</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -94,7 +94,7 @@ define('PAGE_TITLE', 'Продукты - Периметр Ф');
 
 
 
-	<div class="b-description _mb-l _border-bottom">
+	<div class="b-description _mb-l _border-bottom" id="menu1">
 		<h2 class="text-center">Описание</h2>
 		<div class="row _mb-l">
 			<div class="col-lg-6 col-lg-offset-2" data-equalheight>
@@ -327,7 +327,7 @@ define('PAGE_TITLE', 'Продукты - Периметр Ф');
 
 
 
-	<div class="b-reports _mb-l _border-bottom">
+	<div class="b-reports _mb-l _border-bottom" id="menu2">
 		<h2 class="text-center">Схема подключения</h2>
 		<div class="b-reports__tabs _mb-m text-center" role="tabpanel">
 			<!-- Tab panes -->
@@ -392,7 +392,7 @@ define('PAGE_TITLE', 'Продукты - Периметр Ф');
 
 
 
-	<div class="b-features _mb-l _border-bottom">
+	<div class="b-features _mb-l _border-bottom" id="menu3">
 
 		<h2 class="text-center _mb-l">Новости и мероприятия</h2>
 
@@ -440,7 +440,7 @@ define('PAGE_TITLE', 'Продукты - Периметр Ф');
 
 
 
-	<div class="b-licences _mb-l _border-bottom">
+	<div class="b-licences _mb-l _border-bottom" id="menu4">
 
 		<h2 class="text-center _mb-l">Лицензии</h2>
 
@@ -461,7 +461,7 @@ define('PAGE_TITLE', 'Продукты - Периметр Ф');
 
 
 
-	<div class="b-material-webinars _mb-l">
+	<div class="b-material-webinars _mb-l" id="menu5">
 
 		<h2 class="text-center _mb-l">Материалы и вебинары</h2>
 
@@ -526,7 +526,7 @@ define('PAGE_TITLE', 'Продукты - Периметр Ф');
 
 
 
-		<div class="row b-clients _mb-l">
+		<div class="row b-clients _mb-l" id="menu6">
 			<div class="col-xs-12">
 				<h2 class="text-center">Клиенты</h2>
 			</div>
