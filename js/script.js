@@ -169,7 +169,7 @@ $(function()
 
 	// data-equalheight (см. modules/equalheight.js) применяется дл элементов с общим родителем
 	// а этот - для произвольных элементов
-	(function EqualHeightAny()
+	;(function EqualHeightAny()
 	{
 		var resize = function()
 		{
@@ -184,6 +184,24 @@ $(function()
 		$window.onTimeout("resize", resize, 50);
 
 		resize();
+
+	})();
+
+
+
+
+
+
+
+
+	// Меню на стр. продукта
+	;(function ProductMenu()
+	{
+		$('.stages__item').addClass('_faded');
+
+		$('.stages__item').waypoint(function() {
+	  		$(this).removeClass('_faded');
+		}, { offset: $window.height() - 150 });
 
 	})();
 

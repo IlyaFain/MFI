@@ -14,7 +14,7 @@ define('PAGE_TITLE', 'Продукты - Периметр');
 
 
 	<div class="b-intro _mb-m">
-		<img class="b-intro__logo" src="img/logo/directions/perimetr.png" alt="МФИ-Софт">
+		<img class="b-intro__logo" src="img/logo/product-page/perimetr.png" alt="Периметр">
 		<div class="b-intro__text _short">
 			<h1>Периметр</h1>
 			Система аудита сетевого доступа к базам данных
