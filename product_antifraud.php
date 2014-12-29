@@ -1,5 +1,5 @@
 <?
-	define('PAGE_TITLE', 'Пустая страница');
+	define('PAGE_TITLE', 'Продукты - Антифрод');
 ?>
 
 <? require_once('templates/header.php'); ?>

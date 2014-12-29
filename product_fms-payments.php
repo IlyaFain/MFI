@@ -1,5 +1,5 @@
 <?
-	define('PAGE_TITLE', 'Пустая страница');
+	define('PAGE_TITLE', 'Продукты - FMS Платежи');
 ?>
 
 <? require_once('templates/header.php'); ?>

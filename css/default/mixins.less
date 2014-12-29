@@ -93,6 +93,26 @@
 
 
 
+.break-inside-avoid()
+{
+	-webkit-column-break-inside:avoid;
+	   -moz-column-break-inside:avoid;
+	     -o-column-break-inside:avoid;
+	    -ms-column-break-inside:avoid;
+	        column-break-inside:avoid;
+}
+
+
+
+.break-after-always()
+{
+	-webkit-column-break-after: always;
+	   -moz-column-break-after: always;
+	               break-after: always;
+}
+
+
+
 .text-shadow(@args) {
 	-webkit-text-shadow: @args;
 	   -moz-text-shadow: @args;
@@ -525,7 +545,18 @@
 
 .fluid-button(@h, @pad)
 {
+	display: inline-block;
+	vertical-align: middle;
 	height: @h;
 	line-height: round(@h*0.9);
 	padding: 0 @pad;
+	text-decoration: none;
+}
+
+
+
+.margin-auto()
+{
+	margin-left: auto;
+	margin-right: auto;
 }

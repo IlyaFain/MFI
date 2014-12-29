@@ -6,4 +6,244 @@
 ------------------------------ Продукт (начало) --------------------------*/
 
 
-/*------------------------------ ИМЯ_СТРАНИЦЫ (конец) ---------------------------*/
+
+
+
+.b-product-page {
+
+	&._yellow {
+		.btn.active,
+		.b-submenu ._fill,
+		.btn.btn-primary,
+		.b-features__item:before,
+		.b-clients .tinyscrollbar .thumb { background-color: @yellow; color: #616161; text-shadow: none; }
+		.btn.active,
+		.btn.btn-primary,
+		.b-submenu nav ul { border-color: @yellow }
+		.btn:hover,.btn.active:hover { background: lighten(@yellow, 5%); }
+		.btn:active,.btn.active:active { background: darken(@yellow, 5%); }
+		.b-product-tasks__item:before { color: @yellow; }
+		.b-licences a {
+			border-top-color: lighten(@yellow, 15%);
+			border-left-color: @yellow;
+			border-right-color: @yellow;
+			border-bottom-color: darken(@yellow, 15%);
+		}
+	}
+	
+/* 	green
+dark-green
+dark-violet
+cyan
+red
+blue
+yellow
+dark-yellow */
+}
+
+
+
+
+
+
+
+
+
+.b-product-page {
+	.b-intro__text {
+		display: inline-block;
+		vertical-align: top;
+		&._short { width: 30%; margin-right: 30px; }
+		&._long { width: 50%; line-height: 20px; }
+	}
+
+	.b-reports h2 {
+		line-height: 47px;
+	}
+
+	.b-news__list {
+		.columns(2);
+	}
+}
+
+
+
+
+
+
+
+.b-submenu {
+	nav {
+		ul {
+			border: 1px solid;
+			.inline-block-justify();
+			li {
+				a {
+					.fluid-button(40px, 9px);
+					font-size: 14px;
+					color: @violet;
+				}
+
+				&:first-child a {
+					padding-left: 20px;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+.b-product-tasks__list {
+	max-width: 700px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 50px;
+
+}
+
+.b-product-tasks__item {
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 25px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #616161;
+
+	&:before {
+		content: "■ ";
+		position: absolute;
+		left: 0;
+		top: 0;
+		font-size: 40px;
+		line-height: 15px;
+	}
+}
+
+
+
+
+
+
+
+
+.b-features__title span {
+	border-bottom: 1px dotted;
+	cursor: pointer;
+}
+
+.b-features__item {
+	position: relative;
+	padding-top: 15px;
+	padding-right: 50px;
+
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 24px;
+		height: 4px;
+		background-color: #888;
+	}
+
+	.break-inside-avoid();
+	li { .break-inside-avoid(); }
+}
+
+.b-features__text {
+	//.columns(2);
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+
+	ol > li { display: list-item; }
+}
+
+.b-features__more {
+
+	& > span {
+		border-bottom: 1px dotted;
+	}
+
+	& > span:before {
+		content: "Показать всё"
+	}
+
+	& > i {
+		display: inline-block;
+		vertical-align: middle;
+		width: 16px;
+		height: 16px;
+		margin-left: 5px;
+		background: url(../img/icon/more.png) center center no-repeat;
+	}
+
+	&._open {
+		& > span:before {
+			content: "Скрыть"
+		}
+
+		& > i {
+			.rotate(180);
+		}
+	}
+}
+
+
+
+
+
+
+
+
+.b-webinars__preview {
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 10px;
+}
+
+.b-webinars__time {
+	color: @violet;
+}
+
+
+
+
+
+
+
+
+.b-pilot {
+	height: 300px;
+	margin-left: -50px;
+	margin-right: -50px;
+	background: url(../img/bg/pilot.jpg) center center no-repeat;
+	.background-size(cover);
+}
+
+
+
+
+
+
+
+.b-licences {
+	a, img { display: inline-block; }
+
+	a {
+		border-top: 15px solid lighten(#888, 15%);
+		border-left: 15px solid #888;
+		border-right: 15px solid #888;
+		border-bottom: 15px solid darken(#888, 15%);
+	}
+}
+
+
+/*------------------------------ Продукт (конец) ---------------------------*/
