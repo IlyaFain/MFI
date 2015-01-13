@@ -1,5 +1,6 @@
 <?
 define('PAGE_TITLE', 'Продукты - Гарда БД');
+define('SIDEBAR_CLOSED', true);
 ?>
 
 <? require_once('templates/header.php'); ?>

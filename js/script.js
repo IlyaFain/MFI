@@ -197,9 +197,10 @@ $(function()
 	// Меню на стр. продукта
 	;(function ProductMenu()
 	{
-		var $nav = $('nav'),
+		var $submenu = $('.b-submenu'),
+			$nav = $submenu.find('nav'),
 			$li = $nav.find('li'),
-			detachPos = $('.b-submenu').offset().top - 15;
+			detachPos = $submenu.offset().top - 15;
 
 		$li.find('a').click(function(event)
 		{

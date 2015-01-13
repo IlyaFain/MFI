@@ -10,7 +10,7 @@ define('PAGE_TITLE', 'Направление - Периметр');
 
 
 	<div class="b-intro _border-bottom">
-		<img class="b-intro__logo" src="img/logo/directions/perimetr.png" alt="МФИ-Софт">
+		<img class="b-intro__logo" src="img/logo/mfi.png" alt="МФИ-Софт">
 		<div class="b-intro__text">
 			<h1>Периметр</h1>
 			Компания МФИ Софт разрабатывает системы защиты от внутренних угроз <br> информационной безопасности

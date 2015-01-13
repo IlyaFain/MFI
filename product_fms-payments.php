@@ -1,5 +1,6 @@
 <?
 define('PAGE_TITLE', 'Продукты - FMS Payments');
+define('SIDEBAR_CLOSED', true);
 ?>
 
 <? require_once('templates/header.php'); ?>

@@ -27,7 +27,7 @@ $(function()
 		equalheight('[data-equalheight]');
 
 
-		$('nav').width($('.b-submenu').width());
+		$('.b-submenu nav').width($('.b-submenu').width());
 
 	}
 

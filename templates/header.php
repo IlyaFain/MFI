@@ -40,7 +40,7 @@
 <div class="row b-all">
 
 
-	<div id="sidebar" class="col-xs-2 b-sidebar" data-equalheight>
+	<div id="sidebar" class="col-xs-2 b-sidebar <? if(defined('SIDEBAR_CLOSED')){?> _closed <?}?> " data-equalheight>
 
 		<button id="menu_button" class="b-sidebar__menu-button"><i></i></button>
 
