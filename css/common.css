@@ -398,7 +398,7 @@ a._no-underline:hover {
 .b-direction__item img {
   max-width: 100%;
 }
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1365px) {
   .b-direction__item {
     height: 215px;
     overflow: hidden;
@@ -482,12 +482,12 @@ a._no-underline:hover {
   color: #555;
   text-shadow: none;
 }
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1365px) {
   .b-direction__text {
     padding: 25px;
   }
 }
-@media screen and (min-width: 1280px) and (max-width: 1700px) {
+@media screen and (min-width: 1366px) and (max-width: 1700px) {
   .b-direction__title {
     font-size: 20px;
   }
