@@ -1,5 +1,6 @@
 <?
 define('PAGE_TITLE', 'Главная страница');
+define('PAGE_NAME', 'main');
 ?>
 
 <? require_once('templates/header.php'); ?>

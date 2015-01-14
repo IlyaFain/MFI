@@ -2,11 +2,7 @@
 
 <div id="modals_container" class="b-modals md-overlay" style="display:none">
 
-
-
-
-
-
+<? if (defined('PAGE_NAME') && PAGE_NAME == 'main') { ?>
 	<section id="modal_subscribe" class="b-modal b-subscribe-rules md-modal md-effect-3">
 
 		<a data-modal-hide="#modal_subscribe" class="b-modal__close md-close" href="#" title="Закрыть"></a>
@@ -22,14 +18,7 @@
 		<button data-modal-hide="#modal_subscribe" class="b-modal__action btn">Закрыть</button>
 
 	</section>
-
-
-
-
-
-
-
-
+<? } ?>
 
 	<section id="modal_callback" class="b-modal b-callback md-modal md-effect-3">
 
