@@ -110,10 +110,10 @@ $(function()
 		});
 
 
-		$('#sidebar_phone').click(function()
+		/*$('#sidebar_phone').click(function()
 		{
-			alert('Мы вам перезвоним!')
-		});
+			
+		});*/
 
 
 		$('#sidebar_goto_top').click(function()
@@ -197,6 +197,8 @@ $(function()
 	// Меню на стр. продукта
 	;(function ProductMenu()
 	{
+		if (!$('.b-submenu').length) return;
+
 		var $submenu = $('.b-submenu'),
 			$nav = $submenu.find('nav'),
 			$li = $nav.find('li'),
@@ -242,7 +244,7 @@ $(function()
 
 
 
-
+	//showModal('#modal_callback')
 
 
 });

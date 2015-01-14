@@ -25,14 +25,14 @@
 	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 
 	<?
+		antiCache('css/default/fx-modal.css');
+		antiCache('css/default/selectboxit.css');
 		antiCache('css/common.css');
-		//antiCache('css/default/slick.css');
-
 	?>
 
 
 </head>
-<body>
+<body class="md-perspective">
 <noscript><b>В вашем браузере выключен javascript!</b> Полная функциональность сайта может быть недоступна.</noscript>
 
 
@@ -58,7 +58,7 @@
 		<div class="b-sidebar__phone">
 			<div class="b-sidebar__phone-number"><span>8 (831) 220-32-22</span></div>
 			<div class="b-sidebar__phone-button">
-				<button id="sidebar_phone" title="Перезвоните мне"><i class="i-sidebar _phone"></i><span>Перезвоните мне</span></button>
+				<button id="sidebar_phone" data-modal-show="#modal_callback" title="Перезвоните мне"><i class="i-sidebar _phone"></i><span>Перезвоните мне</span></button>
 			</div>
 		</div>
 

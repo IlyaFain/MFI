@@ -25,18 +25,24 @@
 </div>
 
 
+
+	<? require_once('templates/modal.php'); ?>
+
+
 	<script src="js/libs/jquery-1.10.2.min.js"></script>
 	<script src="js/libs/modernizr.all.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/libs/slick.min.js"></script>
+	<script src="js/libs/jquery.tinyscrollbar.js"></script>
+	<script src="js/libs/waypoints.min.js"></script>
+	<script src="js/libs/jquery-ui.core.min.js"></script>
+	<script src="js/libs/jquery.selectBoxIt.min.edit.js"></script>
 
 	<?
-		antiCache('js/script.js');
-		antiCache('js/modules/resize.js');
-		antiCache('js/libs/slick.min.js');
 		antiCache('js/modules/equalheight.js');
-		antiCache('js/libs/jquery.tinyscrollbar.js');
-		antiCache('js/libs/waypoints.min.js');
-		
+		antiCache('js/modules/resize.js');
+		antiCache('js/modules/fx-modal.js');
+		antiCache('js/script.js');
 	?>
 
 

@@ -524,7 +524,7 @@ a._no-underline:hover {
   height: 34px;
   margin-bottom: 4px;
   padding: 0 10px;
-  border: 2px solid #6e0591;
+  border: 2px solid #810295;
 }
 .b-subscribe__submit {
   -webkit-box-sizing: border-box;
@@ -533,18 +533,18 @@ a._no-underline:hover {
   float: left;
   width: 40%;
   height: 34px;
-  border: 2px solid #6e0591;
-  background: #6e0591;
+  border: 2px solid #810295;
+  background: #810295;
   color: #fff;
   font-weight: bold;
   letter-spacing: -0.3px;
   line-height: 30px;
 }
 .b-subscribe__submit:hover {
-  background: #8106aa;
+  background: #9702ae;
 }
 .b-subscribe__submit:active {
-  background: #5b0478;
+  background: #6b027c;
 }
 .b-subscribe__checkbox {
   font-weight: normal;
@@ -622,7 +622,7 @@ a._no-underline:hover {
 .b-clients .tinyscrollbar .thumb {
   top: -5px;
   height: 12px;
-  background: #6e0591;
+  background: #810295;
   border-radius: 0;
   cursor: grab;
   cursor: -moz-grab;
@@ -691,8 +691,8 @@ footer a {
   height: 15px;
   font-size: 0;
   border: 0;
-  border-left: 3px solid #6e0591;
-  border-bottom: 3px solid #6e0591;
+  border-left: 3px solid #810295;
+  border-bottom: 3px solid #810295;
   background: none;
   -webkit-transform-origin: 0 0 0;
   -moz-transform-origin: 0 0 0;
@@ -708,8 +708,8 @@ footer a {
   height: 15px;
   font-size: 0;
   border: 0;
-  border-right: 3px solid #6e0591;
-  border-top: 3px solid #6e0591;
+  border-right: 3px solid #810295;
+  border-top: 3px solid #810295;
   background: none;
   -webkit-transform-origin: 0 0 0;
   -moz-transform-origin: 0 0 0;
@@ -771,6 +771,127 @@ footer a {
 .tinyscrollbar-horizontal .thumb {
   height: 10px;
 }
+/*
+------------------------------ Модальные окна (начало) --------------------------*/
+.b-callback {
+  width: 550px;
+  height: 525px;
+  padding: 30px 40px;
+  font-weight: 300;
+}
+.b-callback__form {
+  width: 310px;
+  margin: auto;
+  padding-top: 50px;
+}
+.b-modal__close {
+  font-size: 0;
+  background: url(../img/icon/modal-close.png) center center no-repeat;
+  right: 35px;
+  top: 30px;
+}
+.b-modal__title {
+  color: #810295;
+  font-weight: 500;
+  font-size: 30px;
+}
+.b-modal__subtitle {
+  font-size: 16px;
+  color: #810295;
+}
+.b-callback__input {
+  width: 100%;
+  height: 44px;
+  border: 2px solid #dad5e7;
+  border-radius: 0;
+  font-weight: 300;
+  font-size: 24px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.b-callback__input:-moz-placeholder {
+  color: #810295;
+  opacity: 0.5;
+}
+.b-callback__input::-moz-placeholder {
+  color: #810295;
+  opacity: 0.5;
+}
+.b-callback__input:-ms-input-placeholder {
+  color: #810295;
+  opacity: 0.5;
+}
+.b-callback__input::-webkit-input-placeholder {
+  color: #810295;
+  opacity: 0.5;
+}
+.b-callback__input:focus:-moz-placeholder {
+  color: transparent;
+}
+.b-callback__input:focus::-moz-placeholder {
+  color: transparent;
+}
+.b-callback__input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+.b-callback__input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.b-callback__select {
+  width: 100%;
+}
+.b-callback__select .selectboxit {
+  width: 308px;
+  height: 44px;
+  line-height: 44px;
+  border: 2px solid #dad5e7;
+  background: none;
+  font-weight: 300;
+  font-size: 20px;
+}
+.b-callback__select .selectboxit-text {
+  height: 44px;
+  line-height: 40px;
+}
+.b-callback__select .selectboxit-arrow-container {
+  width: 44px;
+  height: 44px;
+  top: 0;
+}
+.b-callback__select .selectboxit-arrow {
+  top: 0 !important;
+  display: block;
+  width: 44px;
+  height: 44px;
+  background: url(../img/icon/selectboxit-arrow.png) center center no-repeat;
+  border: 0;
+  border-left: 2px solid #dad5e7;
+}
+.b-callback__label {
+  font-size: 16px;
+  color: #810295;
+  margin-bottom: 2px;
+}
+.b-callback__submit {
+  display: block;
+  width: 260px;
+  height: 48px;
+  line-height: 44px;
+  margin: auto;
+  margin-top: 65px;
+  padding: 0;
+  background: #810295;
+  border: 1px solid #810295;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+}
+.b-callback__submit:hover {
+  background: none;
+  color: #810295;
+}
+/*------------------------------ Модальные окна (конец) ---------------------------*/
 /*--------------------- Стили структурных блоков (конец) ----------------------
 */
 /*
@@ -851,20 +972,20 @@ footer a {
 .b-direction-page._violet .b-solutions:before,
 .b-direction-page._violet .b-video-slider__list,
 .b-direction-page._violet .b-clients .tinyscrollbar .thumb {
-  background-color: #6e0591;
+  background-color: #810295;
 }
 .b-direction-page._violet .b-intro._border-bottom,
 .b-direction-page._violet .b-solutions,
 .b-direction-page._violet .btn.active {
-  border-color: #6e0591;
+  border-color: #810295;
 }
 .b-direction-page._violet .btn:hover,
 .b-direction-page._violet .btn.active:hover {
-  background: #8106aa;
+  background: #9702ae;
 }
 .b-direction-page._violet .btn:active,
 .b-direction-page._violet .btn.active:active {
-  background: #5b0478;
+  background: #6b027c;
 }
 .b-products ._border-right .b-product-intro__text {
   padding-right: 0;
@@ -1480,7 +1601,7 @@ footer a {
   width: 100%;
   text-align: center;
   font-size: 14px;
-  color: #6e0591;
+  color: #810295;
   white-space: nowrap;
 }
 .b-submenu nav ul li.b-submenu__item._descr {
@@ -1594,7 +1715,7 @@ footer a {
   margin-bottom: 10px;
 }
 .b-webinars__time {
-  color: #6e0591;
+  color: #810295;
 }
 .b-pilot {
   height: 300px;

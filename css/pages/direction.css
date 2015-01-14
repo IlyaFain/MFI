@@ -74,20 +74,20 @@
 .b-direction-page._violet .b-solutions:before,
 .b-direction-page._violet .b-video-slider__list,
 .b-direction-page._violet .b-clients .tinyscrollbar .thumb {
-  background-color: #6e0591;
+  background-color: #810295;
 }
 .b-direction-page._violet .b-intro._border-bottom,
 .b-direction-page._violet .b-solutions,
 .b-direction-page._violet .btn.active {
-  border-color: #6e0591;
+  border-color: #810295;
 }
 .b-direction-page._violet .btn:hover,
 .b-direction-page._violet .btn.active:hover {
-  background: #8106aa;
+  background: #9702ae;
 }
 .b-direction-page._violet .btn:active,
 .b-direction-page._violet .btn.active:active {
-  background: #5b0478;
+  background: #6b027c;
 }
 .b-products ._border-right .b-product-intro__text {
   padding-right: 0;

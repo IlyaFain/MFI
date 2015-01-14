@@ -11,11 +11,13 @@
 
 	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 
-		<link href="css/common.css?29.12.14-09:17" rel="stylesheet">
+		<link href="css/default/fx-modal.css?14.01.15-14:28" rel="stylesheet">
+	<link href="css/default/selectboxit.css?14.01.15-15:16" rel="stylesheet">
+	<link href="css/common.css?14.01.15-15:14" rel="stylesheet">
 
 
 </head>
-<body>
+<body class="md-perspective">
 <noscript><b>В вашем браузере выключен javascript!</b> Полная функциональность сайта может быть недоступна.</noscript>
 
 
@@ -41,7 +43,7 @@
 		<div class="b-sidebar__phone">
 			<div class="b-sidebar__phone-number"><span>8 (831) 220-32-22</span></div>
 			<div class="b-sidebar__phone-button">
-				<button id="sidebar_phone" title="Перезвоните мне"><i class="i-sidebar _phone"></i><span>Перезвоните мне</span></button>
+				<button id="sidebar_phone" data-modal-show="#modal_callback" title="Перезвоните мне"><i class="i-sidebar _phone"></i><span>Перезвоните мне</span></button>
 			</div>
 		</div>
 
@@ -402,16 +404,57 @@
 </div>
 
 
+
+	
+
+<div id="modals_container" class="b-modals md-overlay" style="display:none">
+
+	<section id="modal_callback" class="b-modal b-callback md-modal md-effect-3">
+
+		<a data-modal-hide="#modal_callback" class="b-modal__close md-close" href="#" title="Закрыть"></a>
+
+		<div class="b-modal__title">Заказ обратного звонка</div>
+		<div class="b-modal__subtitle">Заполните форму и мы вам перезвоним</div>
+
+		<form class="b-callback__form" name="callback" action="" method="post">
+			<div class="form-group">
+				<input name="callback_name" type="text" class="form-control b-callback__input" id="" placeholder="Ваше имя">
+			</div>
+			<div class="form-group">
+				<input name="callback_phone" type="tel" class="form-control b-callback__input" id="" placeholder="Телефон">
+			</div>
+			<div class="form-group">
+				<div class="b-callback__label">Желаемое время для звонка</div>
+				<div class="b-callback__select">
+					<select class="js-selectboxit b-callback__time" name="callback_time" id="callback_time">
+						<option value="1">с 9 до 12 часов</option>
+						<option value="2">с 12 до 15 часов</option>
+						<option value="3">с 15 до 18 часов</option>
+						<option value="4">с 18 до 21 часа</option>
+					</select>
+				</div>
+			</div>
+			
+			<button type="submit" class="b-callback__submit btn">Заказать звонок</button>
+		</form>
+
+	</section>
+
+</div>
+
 	<script src="js/libs/jquery-1.10.2.min.js"></script>
 	<script src="js/libs/modernizr.all.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/libs/slick.min.js"></script>
+	<script src="js/libs/jquery.tinyscrollbar.js"></script>
+	<script src="js/libs/waypoints.min.js"></script>
+	<script src="js/libs/jquery-ui.core.min.js"></script>
+	<script src="js/libs/jquery.selectBoxIt.min.edit.js"></script>
 
-		<script src="js/script.js?29.12.14-09:41"></script>
+		<script src="js/modules/equalheight.js?25.12.14-14:30"></script>
 	<script src="js/modules/resize.js?29.12.14-09:41"></script>
-	<script src="js/libs/slick.min.js?10.12.14-13:26"></script>
-	<script src="js/modules/equalheight.js?25.12.14-14:30"></script>
-	<script src="js/libs/jquery.tinyscrollbar.js?20.10.14-12:47"></script>
-	<script src="js/libs/waypoints.min.js?19.12.14-14:55"></script>
+	<script src="js/modules/fx-modal.js?13.01.15-19:14"></script>
+	<script src="js/script.js?14.01.15-15:17"></script>
 
 
 
