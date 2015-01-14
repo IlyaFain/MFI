@@ -168,7 +168,7 @@ define('PAGE_TITLE', 'Главная страница');
 					</div>
 					<label class="b-subscribe__checkbox">
 						<input type="checkbox" required>
-						Согласен с <a class="_underline" href="#">Правилами подписки</a>
+						Согласен с <a class="_underline" href="#" data-modal-show="#modal_subscribe">Правилами подписки</a>
 					</label>
 				</form>
 			</div>

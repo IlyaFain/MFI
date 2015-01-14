@@ -52,6 +52,7 @@ $(function()
 		$selector
 			.css("top", top + "px")
 			.fadeIn(FADE_IN_TIME, function(){ $selector.addClass('md-show'); });
+		$modal.not($selector).hide();
 	}
 
 

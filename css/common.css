@@ -773,9 +773,9 @@ footer a {
 }
 /*
 ------------------------------ Модальные окна (начало) --------------------------*/
-.b-callback {
+.b-modal {
   width: 550px;
-  height: 525px;
+  min-height: 525px;
   padding: 30px 40px;
   font-weight: 300;
 }
@@ -802,13 +802,13 @@ footer a {
 .b-callback__input {
   width: 100%;
   height: 44px;
-  border: 2px solid #dad5e7;
+  border: 2px solid #dad5e7 !important;
   border-radius: 0;
   font-weight: 300;
   font-size: 24px;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
 }
 .b-callback__input:-moz-placeholder {
   color: #810295;
@@ -873,23 +873,31 @@ footer a {
   color: #810295;
   margin-bottom: 2px;
 }
-.b-callback__submit {
+.b-modal__action {
   display: block;
-  width: 260px;
+  width: auto;
   height: 48px;
   line-height: 44px;
   margin: auto;
   margin-top: 65px;
-  padding: 0;
+  padding: 0 25px;
   background: #810295;
   border: 1px solid #810295;
   color: #fff;
   font-size: 24px;
   font-weight: 300;
 }
-.b-callback__submit:hover {
+.b-modal__action:hover {
   background: none;
   color: #810295;
+}
+.b-subscribe-rules {
+  height: auto;
+}
+.b-subscribe-rules__text {
+  margin-top: 40px;
+  line-height: 18px;
+  font-size: 14px;
 }
 /*------------------------------ Модальные окна (конец) ---------------------------*/
 /*--------------------- Стили структурных блоков (конец) ----------------------
