@@ -72,8 +72,10 @@ $(function()
 
 	;(function Scrollbars()
 	{
+		var $tinyscrollbar = $('.tinyscrollbar');
+		if (!$tinyscrollbar.length) return;
 
-		$('.tinyscrollbar').each(function(index, element)
+		$tinyscrollbar.each(function(index, element)
 		{
 			var $this = $(element);
 
@@ -245,6 +247,78 @@ $(function()
 
 
 	//showModal('#modal_callback')
+
+
+
+
+
+
+
+
+	;(function Vacancy()
+	{
+		var $buttons = $('#vacancy_tab_buttons').children();
+		var $contents = $('#vacancy_tab_contents').children();
+
+		if (!$buttons.length || !$contents.length) return;
+
+		$buttons.click(function(event)
+		{
+			event.preventDefault();
+
+			$buttons
+				.removeClass('_current')
+				.filter($(this))
+				.addClass('_current');
+
+			$contents
+				.removeClass('_current')
+				.eq($(this).index())
+				.addClass('_current')
+		});
+
+
+		$('.b-story__more').click(function()
+		{
+			setTimeout(function(){ $(window).trigger("resize")}, 300);
+		})
+
+
+	})();
+
+
+
+
+
+
+
+	;(function SelectOffice()
+	{
+		var $buttons = $('#office_select').children();
+		var $contents = $('#map_select').children();
+
+		if (!$buttons.length || !$contents.length) return;
+
+		$buttons.find('a').click(function(event)
+		{
+			var $parent = $(this).parents('li');
+
+			event.preventDefault();
+
+			$parent.siblings().removeClass('_current');
+			$parent.addClass('_current');
+
+			$contents
+				.removeClass('_current')
+				.eq($parent.index())
+				.addClass('_current')
+		});
+	})();
+
+
+
+
+
 
 
 });

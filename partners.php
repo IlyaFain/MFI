@@ -1,5 +1,5 @@
 <?
-	define('PAGE_TITLE', 'Пустая страница');
+	define('PAGE_TITLE', 'Партнеры');
 	define('IS_INNER_PAGE', true);
 ?>
 

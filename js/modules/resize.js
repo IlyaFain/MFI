@@ -29,6 +29,16 @@ $(function()
 
 		$('.b-submenu nav').width($('.b-submenu').width());
 
+
+		var $clients = $('.b-clients');
+		$clients.css("height", "auto");
+
+		if ($clients.height() < $window.height() - 270)
+		{
+			$clients.height($window.height() - 270);
+		}
+
+
 	}
 
 

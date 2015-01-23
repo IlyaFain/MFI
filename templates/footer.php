@@ -37,6 +37,7 @@
 	<script src="js/libs/waypoints.min.js"></script>
 	<script src="js/libs/jquery-ui.core.min.js"></script>
 	<script src="js/libs/jquery.selectBoxIt.min.edit.js"></script>
+	<script src="js/libs/lightbox.min.js"></script>
 
 	<?
 		antiCache('js/modules/equalheight.js');

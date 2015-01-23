@@ -3,7 +3,7 @@
 	ini_set('display_errors', '1');
 	date_default_timezone_set('Europe/Moscow');
 
-	define('SITE_TITLE', 'Название сайта');
+	define('SITE_TITLE', 'МФИ-Софт');
 
 	// для сохранения html-файла
 	define('SAVE_HTML', false);
@@ -27,6 +27,7 @@
 	<?
 		antiCache('css/default/fx-modal.css');
 		antiCache('css/default/selectboxit.css');
+		antiCache('css/default/lightbox.edit.css');
 		antiCache('css/common.css');
 	?>
 
@@ -40,6 +41,10 @@
 <div class="row b-all">
 
 
+<?
+	/* Сайдбар на внутренних страницах свой */
+	if (!defined('IS_INNER_PAGE')) { ?>
+
 	<div id="sidebar" class="col-xs-2 b-sidebar <? if(defined('SIDEBAR_CLOSED')){?> _closed <?}?> " data-equalheight>
 
 		<button id="menu_button" class="b-sidebar__menu-button"><i></i></button>
@@ -48,7 +53,7 @@
 			<ul>
 				<li><a title="Решения" href="#"><i class="i-sidebar _solution"></i><span>Решения</span></a></li>
 				<li><a title="Компания" href="#"><i class="i-sidebar _company"></i><span>Компания</span></a></li>
-				<li><a title="Мероприятия" href="#"><i class="i-sidebar _events"></i><span>Мероприятия</span></a></li>
+				<li><a title="Аналитика" href="#"><i class="i-sidebar _events"></i><span>Аналитика</span></a></li>
 				<li><a title="Пресс-центр" href="#"><i class="i-sidebar _press"></i><span>Пресс-центр</span></a></li>
 				<li><a title="Партнеры" href="#"><i class="i-sidebar _partners"></i><span>Партнеры</span></a></li>
 				<li><a title="Контакты" href="#"><i class="i-sidebar _contacts"></i><span>Контакты</span></a></li>
@@ -65,3 +70,4 @@
 		<a id="sidebar_goto_top" href="#" class="b-sidebar__goto-top">Наверх</a>
 	</div>
 
+<? } ?>
