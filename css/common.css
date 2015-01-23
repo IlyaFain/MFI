@@ -71,6 +71,14 @@
   max-width: 700px;
   margin: auto;
 }
+._center-cols {
+  text-align: center;
+}
+._center-cols > * {
+  float: none;
+  display: inline-block;
+  text-align: left;
+}
 /*--------------------- Универсальные модификаторы (конец) --------------------
 */
 /*
