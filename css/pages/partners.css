@@ -1,0 +1,52 @@
+/*
+------------------------------ Партнеры (начало) --------------------------*/
+.st0 {
+  cursor: pointer;
+}
+.st0:hover {
+  fill: #9702ae;
+}
+.st0._active {
+  fill: #810295;
+}
+.b-partners__selectbox select.js-selectboxit,
+.b-partners__selectbox .selectboxit,
+.b-partners__selectbox .selectboxit-container .selectboxit-options {
+  min-width: 200px;
+  max-width: 700px;
+}
+.b-partners__selectbox .selectboxit-btn {
+  width: auto !important;
+  padding-right: 30px;
+  color: #810295;
+  font-size: 30px;
+  font-weight: bold;
+  border: 0;
+}
+.b-partners__selectbox .selectboxit-text {
+  max-width: none !important;
+  text-indent: 0;
+  border-bottom: 1px dashed #810295;
+}
+.b-partners__selectbox .selectboxit-arrow-container {
+  right: 0;
+}
+.b-partners__data {
+  min-height: 200px;
+}
+.b-partners__data > li {
+  padding-left: 15px;
+  list-style-type: number;
+  list-style-position: inside;
+}
+.b-partners__data > li._no-number {
+  list-style-type: none;
+}
+.b-partners__data > li a {
+  padding-left: 3px;
+  text-decoration: underline;
+}
+.b-partners__data > li p {
+  padding-left: 17px;
+}
+/*------------------------------ Партнеры (конец) ---------------------------*/

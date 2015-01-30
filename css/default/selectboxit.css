@@ -9,7 +9,7 @@ select.js-selectboxit,
 
 /* Макс. высота: */
 .selectboxit-container .selectboxit-options {
-  max-height: 200px;
+  max-height: 500px;
 }
 
 /* Валидация */

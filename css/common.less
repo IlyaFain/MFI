@@ -624,13 +624,45 @@ a {
 
 
 
+
+
 .b-replies__author {
-	height: 50px;
+	min-height: 50px;
+	overflow: hidden;
+}
+
+.b-replies__author._detail img {
+	float: left;
+	margin-right: 10px;
+}
+
+.b-replies__author-info {
+
+}
+
+.b-replies__author-name {
+	margin-bottom: 10px;
+}
+
+.b-replies__author-job {
+	font-size: 12px;
+	font-weight: 300;
 }
 
 .b-replies__text {
+	display: block;
 	border: 2px solid #6e0591;
 	padding: 20px;
+}
+
+a.b-replies__text {
+	color: inherit;
+	&:hover { text-decoration: inherit; }
+}
+
+.b-replies__text._detail {
+	border: 0;
+	padding: 0;
 }
 
 .b-replies__square {
@@ -1139,6 +1171,52 @@ footer a {
 	}
 }
 
+
+.b-licences-slider__wrapper {
+	position: relative;
+	padding: 0 50px;
+
+	.slick-prev {
+		position: absolute;
+		left: 20px;
+		top: 150px;
+		width: 40px;
+		height: 40px;
+	}
+
+	.slick-next {
+		position: absolute;
+		right: 0;
+		top: 150px;
+		width: 40px;
+		height: 40px;
+	}
+}
+
+.b-licences-slider {
+	overflow: hidden;
+}
+
+.b-licences-slider__item {
+	float: left;
+
+	img {
+		border-top: 17px solid lighten(#f0e4f0, 5%);
+		border-left: 17px solid #f0e4f0;
+		border-right: 17px solid #f0e4f0;
+		border-bottom: 17px solid darken(#f0e4f0, 5%);
+		margin-bottom: 15px;
+	}
+
+	p {
+		width: 250px;
+	}
+}
+
+.b-licences__caption {
+	padding-left: 50px;
+}
+
 /*----------------- Внутренние страницы (конец) -----------------*/
 
 
@@ -1165,5 +1243,6 @@ footer a {
 ----------------------- Индивидуальные стили страниц (начало) ---------------*/
 @import "pages/direction.less";
 @import "pages/product.less";
+@import "pages/partners.less";
 /*--------------------- Индивидуальные стили страниц (конец) ----------------
 */

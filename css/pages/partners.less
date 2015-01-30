@@ -1,0 +1,85 @@
+@import "../default/mixins.less";
+
+
+
+/*
+------------------------------ Партнеры (начало) --------------------------*/
+
+.st0 {
+	cursor: pointer;
+
+	&:hover
+	{
+		fill: lighten(@violet, 5%);
+	}
+
+	&._active
+	{
+		fill: @violet;
+	}
+}
+
+
+.b-partners__selectbox {
+
+	select.js-selectboxit,
+	.selectboxit,
+	.selectboxit-container .selectboxit-options {
+		min-width: 200px;
+		max-width: 700px;
+	}
+
+	.selectboxit-btn {
+		width:auto !important;
+		padding-right: 30px;
+		color: @violet;
+		font-size: 30px;
+		font-weight: bold;
+		border: 0;
+	}
+
+	.selectboxit-text {
+		max-width: none !important;
+		text-indent: 0;
+		border-bottom: 1px dashed @violet;
+	}
+
+	.selectboxit-arrow-container {
+		right: 0;
+	}
+}
+
+
+.b-partners__data {
+	min-height: 200px;
+
+	& > li {
+		padding-left: 15px;
+		list-style-type: number;
+		list-style-position: inside;
+
+		&._no-number { list-style-type: none }
+
+		a {
+			padding-left: 3px;
+			text-decoration: underline;
+		}
+
+		p {
+			padding-left: 17px;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------ Партнеры (конец) ---------------------------*/

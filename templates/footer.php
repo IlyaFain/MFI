@@ -44,6 +44,8 @@
 		antiCache('js/modules/resize.js');
 		antiCache('js/modules/fx-modal.js');
 		antiCache('js/script.js');
+
+		if (defined('PAGE_NAME') && PAGE_NAME == 'partners') antiCache('js/pages/partners/partners.js');
 	?>
 
 

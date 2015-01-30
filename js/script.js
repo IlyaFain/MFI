@@ -63,6 +63,42 @@ $(function()
 
 
 
+
+		$('#slider_licences1, #slider_licences2').each(function(index, element)
+		{
+			var $this = $(element);
+			$this.slick(
+			{
+				arrows: true,
+				infinite: false,
+				dots: false,
+				slidesToShow: 4,
+				slidesToScroll: 4,
+				responsive:
+				[
+					{
+						breakpoint: 1366,
+						settings:
+						{
+							slidesToShow: 3,
+							slidesToScroll: 3
+						}
+					}
+				],
+
+				onInit: function()
+				{
+					//if ($('.b-licences-slider__wrapper').children('.slick-prev').length) return;
+					$this.parent()
+						.append($('.slick-prev', $this))
+						.append($('.slick-next', $this))
+				}
+			});
+		});
+
+
+
+
 	})();
 
 

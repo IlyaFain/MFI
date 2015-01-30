@@ -1,5 +1,5 @@
 <?
-	define('PAGE_TITLE', 'Пустая страница');
+	define('PAGE_TITLE', 'Галерея');
 	define('IS_INNER_PAGE', true);
 ?>
 
@@ -21,9 +21,36 @@
 		<div class="b-intro _inner">
 			<img class="b-intro__logo" src="img/logo/mfi.png" alt="МФИ-Софт">
 			<div class="b-intro__text">
-				<h1>Заголовок</h1>
+				<h1>Галерея</h1>
 			</div>
 		</div>
+
+
+
+
+	<div class="b-gallery">
+		
+		<div class="row">
+			<div class="col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="img/content/gallery/large.jpg" data-lightbox="gallery"><img class="_mb-xs" src="img/content/gallery/1.jpg" alt=""><span>Форум «Clouds-NN 2013»</span></a></div>
+			<div class="col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="img/content/gallery/large.jpg" data-lightbox="gallery"><img class="_mb-xs" src="img/content/gallery/1.jpg" alt=""><span>Форум «Clouds-NN 2013»</span></a></div>
+			<div class="col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="img/content/gallery/large.jpg" data-lightbox="gallery"><img class="_mb-xs" src="img/content/gallery/1.jpg" alt=""><span>Форум «Clouds-NN 2013»</span></a></div>
+			<div class="col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="img/content/gallery/large.jpg" data-lightbox="gallery"><img class="_mb-xs" src="img/content/gallery/1.jpg" alt=""><span>Форум «Clouds-NN 2013»</span></a></div>
+			<div class="col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="img/content/gallery/large.jpg" data-lightbox="gallery"><img class="_mb-xs" src="img/content/gallery/1.jpg" alt=""><span>Форум «Clouds-NN 2013»</span></a></div>
+			<div class="col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="img/content/gallery/large.jpg" data-lightbox="gallery"><img class="_mb-xs" src="img/content/gallery/1.jpg" alt=""><span>Форум «Clouds-NN 2013»</span></a></div>
+			<div class="col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="img/content/gallery/large.jpg" data-lightbox="gallery"><img class="_mb-xs" src="img/content/gallery/1.jpg" alt=""><span>Форум «Clouds-NN 2013»</span></a></div>
+			<div class="col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="img/content/gallery/large.jpg" data-lightbox="gallery"><img class="_mb-xs" src="img/content/gallery/1.jpg" alt=""><span>Форум «Clouds-NN 2013»</span></a></div>
+			<div class="col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="img/content/gallery/large.jpg" data-lightbox="gallery"><img class="_mb-xs" src="img/content/gallery/1.jpg" alt=""><span>Форум «Clouds-NN 2013»</span></a></div>
+			<div class="col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="img/content/gallery/large.jpg" data-lightbox="gallery"><img class="_mb-xs" src="img/content/gallery/1.jpg" alt=""><span>Форум «Clouds-NN 2013»</span></a></div>
+			<div class="col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="img/content/gallery/large.jpg" data-lightbox="gallery"><img class="_mb-xs" src="img/content/gallery/1.jpg" alt=""><span>Форум «Clouds-NN 2013»</span></a></div>
+			<div class="col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="img/content/gallery/large.jpg" data-lightbox="gallery"><img class="_mb-xs" src="img/content/gallery/1.jpg" alt=""><span>Форум «Clouds-NN 2013»</span></a></div>
+			<div class="col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="img/content/gallery/large.jpg" data-lightbox="gallery"><img class="_mb-xs" src="img/content/gallery/1.jpg" alt=""><span>Форум «Clouds-NN 2013»</span></a></div>
+			<div class="col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="img/content/gallery/large.jpg" data-lightbox="gallery"><img class="_mb-xs" src="img/content/gallery/1.jpg" alt=""><span>Форум «Clouds-NN 2013»</span></a></div>
+			<div class="col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="img/content/gallery/large.jpg" data-lightbox="gallery"><img class="_mb-xs" src="img/content/gallery/1.jpg" alt=""><span>Форум «Clouds-NN 2013»</span></a></div>
+			<div class="col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="img/content/gallery/large.jpg" data-lightbox="gallery"><img class="_mb-xs" src="img/content/gallery/1.jpg" alt=""><span>Форум «Clouds-NN 2013»</span></a></div>
+		</div>
+
+
+	</div>
 
 
 
