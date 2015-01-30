@@ -1148,6 +1148,13 @@ footer a {
 .b-licences__caption {
   padding-left: 50px;
 }
+.b-gallery-page__item img {
+  width: 100%;
+  display: block;
+}
+.b-gallery-page__item span {
+  display: block;
+}
 /*----------------- Внутренние страницы (конец) -----------------*/
 /*----------------------------- Общие стили (конец) ---------------------------
 */
