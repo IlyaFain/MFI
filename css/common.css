@@ -1155,6 +1155,76 @@ footer a {
 .b-gallery-page__item span {
   display: block;
 }
+.b-apply.b-about-advantages {
+  background: url(../img/bg/about.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #616161;
+  text-shadow: none;
+  padding: 25px 50px;
+}
+.b-apply.b-about-advantages h2 {
+  color: #616161;
+}
+.b-apply.b-about-advantages ul > li:before {
+  color: #810295;
+}
+.b-pressbook__file-link {
+  float: left;
+}
+.b-pressbook__file-link + .b-pressbook__file-link {
+  margin-left: 5px;
+}
+.b-pressbook__file {
+  display: inline-block;
+  vertical-align: middle;
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/icon/file_format.png);
+  background-repeat: no-repeat;
+}
+.b-pressbook__file._ai {
+  background-position: 0px 0px;
+}
+.b-pressbook__file._jpg {
+  background-position: -60px 0px;
+}
+.b-pressbook__file._doc {
+  background-position: -120px 0px;
+}
+.b-pressbook__file._zip {
+  background-position: -180px 0px;
+}
+.b-pressbook__file._ai:hover {
+  background-position: 0px -60px;
+}
+.b-pressbook__file._jpg:hover {
+  background-position: -60px -60px;
+}
+.b-pressbook__file._doc:hover {
+  background-position: -120px -60px;
+}
+.b-pressbook__file._zip:hover {
+  background-position: -180px -60px;
+}
+.b-pressbook__text {
+  float: left;
+  width: 60%;
+  line-height: 60px;
+}
+.b-pressbook__text > div {
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+.b-pressbook__descr {
+  padding-top: 10px;
+  font-size: 12px;
+  color: #101010;
+}
 /*----------------- Внутренние страницы (конец) -----------------*/
 /*----------------------------- Общие стили (конец) ---------------------------
 */
