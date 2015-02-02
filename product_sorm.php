@@ -7,7 +7,7 @@ define('SIDEBAR_CLOSED', true);
 
 
 
-<div class="col-xs-10 b-content b-product-page _dark-blue" data-equalheight>
+<div class="col-xs-12 b-content b-product-page _dark-blue">
 
 	<div class="_mb-m">
 		<a href="#" class="_no-underline">&#8592; <span class="_underline">Информационная безопасность</span></a>

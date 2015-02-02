@@ -33,7 +33,7 @@
 
 
 </head>
-<body class="md-perspective">
+<body>
 <noscript><b>В вашем браузере выключен javascript!</b> Полная функциональность сайта может быть недоступна.</noscript>
 
 
@@ -45,7 +45,7 @@
 	/* Сайдбар на внутренних страницах свой */
 	if (!defined('IS_INNER_PAGE')) { ?>
 
-	<div id="sidebar" class="col-xs-2 b-sidebar <? if(defined('SIDEBAR_CLOSED')){?> _closed <?}?> " data-equalheight>
+	<div id="sidebar" class="col-xs-2 b-sidebar <? if(defined('SIDEBAR_CLOSED')){?> _closed <?}?> ">
 
 		<button id="menu_button" class="b-sidebar__menu-button"><i></i></button>
 

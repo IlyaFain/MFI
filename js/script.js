@@ -261,9 +261,20 @@ $(function()
 					.addClass('_passed')
 					.prevAll()
 					.addClass('_passed');
+
+				// фикс для предпоследнего элемента
+				if ($current.parent().nextAll().length == 1)
+				{
+
+					$current.parent().next().addClass('_passed')
+				}
+				else
+				{
+					$current.parent().nextAll().removeClass('_passed')
+				}
 			},
 			{
-				//offset: $window.height() * 0.75
+				offset: 400
 			}
 		);
 

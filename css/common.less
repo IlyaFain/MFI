@@ -100,10 +100,11 @@ a {
 }
 
 .b-sidebar {
-	position: relative;
+	position: fixed;
 	z-index: 1;
 	overflow: hidden;
 	min-height: 768px;
+	height: 100%;
 	padding-top: 10px;
 	color: #fff;
 	background: #536271;
@@ -111,14 +112,20 @@ a {
 	font-weight: 300;
 	font-size: 24px;
 
+	& + .b-content {
+		padding-left: 290px;
+	}
+
 	&._closed {
 		width: 70px;
 
 		& + .b-content {
 			width: 100%;
-			margin-left: -70px;
+			//margin-left: -70px;
 			padding-left: 120px;
 		}
+
+		nav { background: url(../img/logo/mfi_sidebar.png) center 40px no-repeat; }
 
 		nav ul > li a span { display: none; }
 
@@ -132,7 +139,7 @@ a {
 
 	nav
 	{
-		margin-top: 100px;
+		padding-top: 100px;
 		margin-left: -15px;
 		margin-right: -15px;
 
@@ -338,7 +345,7 @@ a {
 	padding: 20px 50px 0;
 	background: #fff;
 	min-height: 768px;
-	padding-bottom: 100px;
+	//padding-bottom: 100px;
 }
 
 
@@ -699,6 +706,7 @@ a.b-replies__text {
 
 
 .b-clients {
+	height: auto !important;
 	cursor: arrow;
 	&._no-scroll .col-xs-1 { margin-bottom: 50px }
 }
@@ -741,9 +749,11 @@ a.b-replies__text {
 
 
 footer {
-	position: absolute;
+	//position: absolute;
+	.box-sizing(content-box);
 	width: 100%;
 	bottom: 0;
+	left: 0;
 	background: #efefef;
 	padding: 20px 50px;
 	//width: 1024px;

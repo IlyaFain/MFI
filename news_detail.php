@@ -10,7 +10,7 @@
 
 
 
-	<div class="col-xs-10 b-content" data-equalheight>
+	<div class="col-xs-12 b-content">
 
 		<div class="b-intro _inner">
 			<img class="b-intro__logo" src="img/logo/mfi.png" alt="МФИ-Софт">

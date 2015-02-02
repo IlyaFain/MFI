@@ -6,7 +6,7 @@ define('PAGE_TITLE', 'Направление - СОРМ');
 
 <!-- раскраска направлений осуществляется классами _green, _blue, _yellow и _violet для .b-direction-page -->
 
-<div class="col-xs-10 b-content  b-direction-page _blue" data-equalheight>
+<div class="col-xs-12 b-content  b-direction-page _blue">
 
 
 	<div class="b-intro _border-bottom">

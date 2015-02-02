@@ -6,7 +6,7 @@ define('PAGE_NAME', 'main');
 <? require_once('templates/header.php'); ?>
 
 
-<div class="col-xs-10 b-content" data-equalheight>
+<div class="col-xs-12 b-content">
 
 
 <div class="b-intro _mb-xl">
