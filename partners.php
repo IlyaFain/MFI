@@ -33,7 +33,7 @@
 
 <div class="b-partners__selectbox _mb-l">
 	<select id="select_region" name="select_region">
-		<option value="0" disabled="disabled">Выберите регион</option>
+		<option value="0">Выберите регион</option>
 		<? require('templates/select_region.php'); ?>
 	</select>
 </div>

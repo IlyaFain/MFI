@@ -246,18 +246,18 @@
 	margin: auto;
 	width: @size;
 	height: @size;
-	background-image: url(../img/icon/tasks.png);
+	//background-image: url(../img/icon/tasks.png);
 	background-repeat: no-repeat;
 	.transition(all 0.3s);
 
 	&:hover { .transform(scale(1.05))}
 
-	&._risk    { .sprite(0,0,@size,@size) }
-	&._db      { .sprite(1,0,@size,@size) }
-	&._comm    { .sprite(2,0,@size,@size) }
-	&._reg     { .sprite(0,1,@size,@size) }
-	&._detect  { .sprite(1,1,@size,@size) }
-	&._control { .sprite(2,1,@size,@size) }
+	&._risk    { background: url(../img/icon/tasks/1.png) center center no-repeat; /* .sprite(0,0,@size,@size) */ }
+	&._db      { background: url(../img/icon/tasks/2.png) center center no-repeat; /* .sprite(1,0,@size,@size) */ }
+	&._comm    { background: url(../img/icon/tasks/3.png) center center no-repeat; /* .sprite(2,0,@size,@size) */ }
+	&._reg     { background: url(../img/icon/tasks/4.png) center center no-repeat; /* .sprite(0,1,@size,@size) */ }
+	&._detect  { background: url(../img/icon/tasks/5.png) center center no-repeat; /* .sprite(1,1,@size,@size) */ }
+	&._control { background: url(../img/icon/tasks/6.png) center center no-repeat; /* .sprite(2,1,@size,@size) */ }
 }
 
 

@@ -26,7 +26,7 @@ define('SIDEBAR_CLOSED', true);
 	</div>
 
 	<div class="b-submenu _mb-xxl">
-		<nav>
+		<nav class="_detached">
 			<ul>
 				<li class="b-submenu__item _descr"><a href="#menu1">Описание</a></li>
 				<li class="b-submenu__item _scheme"><a href="#menu2">Схема подключения</a></li>
