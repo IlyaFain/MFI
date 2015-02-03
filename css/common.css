@@ -1557,6 +1557,7 @@ footer a {
 .b-products__sub._six > li a {
   display: inline;
   white-space: normal;
+  line-height: normal;
 }
 .b-products__sub._six > li p {
   margin-bottom: 0;
