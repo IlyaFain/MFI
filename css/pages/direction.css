@@ -101,7 +101,6 @@
 }
 .b-product-intro {
   height: 120px;
-  overflow: hidden;
 }
 .b-product-intro__logo {
   float: left;
@@ -133,6 +132,19 @@
   float: left;
   width: 19.5%;
   padding-right: 15px;
+}
+.b-products__sub._six > li {
+  width: 16%;
+}
+.b-products__sub._six > li h3 {
+  margin-bottom: 5px;
+}
+.b-products__sub._six > li a {
+  display: inline;
+  white-space: normal;
+}
+.b-products__sub._six > li p {
+  margin-bottom: 0;
 }
 .b-solutions {
   max-width: 970px;
