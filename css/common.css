@@ -1702,6 +1702,9 @@ footer a {
   position: relative;
   top: -10px;
 }
+.b-laws__list._open .visible-lg {
+  display: block !important;
+}
 .b-laws__item {
   padding-left: 70px;
   background: url(../img/icon/law.png) 30px 5px no-repeat;

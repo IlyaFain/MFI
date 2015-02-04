@@ -195,6 +195,7 @@ $(function()
 		{
 			$items.toggleClass('hidden');
 			$(this).toggleClass("_open");
+			$('#laws_list').toggleClass("_open");
 			$window.trigger("resize");
 		})
 	})();
