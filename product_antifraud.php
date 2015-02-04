@@ -30,13 +30,13 @@ define('SIDEBAR_CLOSED', true);
 	<div class="b-submenu _mb-xxl">
 		<nav>
 			<ul>
-				<li><a href="#">Описание</a></li>
-				<li><a href="#">Схема подключения</a></li>
-				<li><a href="#">Новости и мероприятия</a></li>
-				<li><a href="#">Лицензии</a></li>
-				<li><a href="#">Материалы и вебинары</a></li>
-				<li><a href="#">Клиенты</a></li>
-				<li><a class="_fill" href="#">Получить консультацию</a></li>
+				<li class="b-submenu__item"><a href="#">Описание</a></li>
+				<li class="b-submenu__item"><a href="#">Схема подключения</a></li>
+				<li class="b-submenu__item"><a href="#">Новости и мероприятия</a></li>
+				<li class="b-submenu__item"><a href="#">Лицензии</a></li>
+				<li class="b-submenu__item"><a href="#">Материалы и вебинары</a></li>
+				<li class="b-submenu__item"><a href="#">Клиенты</a></li>
+				<li class="b-submenu__item"><a class="_fill" href="#">Получить консультацию</a></li>
 			</ul>
 		</nav>
 	</div>
