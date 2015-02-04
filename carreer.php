@@ -1,5 +1,6 @@
 <?
 	define('PAGE_TITLE', 'Карьера');
+	define('PAGE_NAME', 'carreer');
 	define('IS_INNER_PAGE', true);
 ?>
 
@@ -58,23 +59,23 @@
 			<ul id="vacancy_tab_contents" class="b-car__vacancy-contents">
 				<li class="row _current">
 					<div class="col-xs-4">
-						<p><a class="_underline" href="#">Java-программист</a></p>
-						<p><a class="_underline" href="#">WEB-программист</a></p>
-						<p><a class="_underline" href="#">Tester (Инженер по тестированию)</a></p>
+						<p><a data-modal-show="" class="_underline" href="#">Java-программист</a></p>
+						<p><a data-modal-show="#modal_vacancy_another" class="_underline" href="#">WEB-программист</a></p>
+						<p><a data-modal-show="#modal_vacancy" class="_underline" href="#">Tester (Инженер по тестированию)</a></p>
 					</div>
 					<div class="col-xs-4">
-						<p><a class="_underline" href="#">С++ программист</a></p>
-						<p><a class="_underline" href="#">Ведущий разработчик С++</a></p>
-						<p><a class="_underline" href="#">Системный архитектор</a></p>
+						<p><a data-modal-show="" class="_underline" href="#">С++ программист</a></p>
+						<p><a data-modal-show="" class="_underline" href="#">Ведущий разработчик С++</a></p>
+						<p><a data-modal-show="" class="_underline" href="#">Системный архитектор</a></p>
 					</div>
 				</li>
 
 
 				<li class="row">
 					<div class="col-xs-4">
-						<p><a class="_underline" href="#">Сборщик скворечников</a></p>
-						<p><a class="_underline" href="#">Мойщик слонов</a></p>
-						<p><a class="_underline" href="#">Алкотестер (Инженер по тестированию)</a></p>
+						<p><a data-modal-show="#modal_vacancy_another" class="_underline" href="#">Сборщик скворечников</a></p>
+						<p><a data-modal-show="#modal_vacancy_another" class="_underline" href="#">Мойщик слонов</a></p>
+						<p><a data-modal-show="#modal_vacancy_another" class="_underline" href="#">Алкотестер (Инженер по тестированию)</a></p>
 					</div>
 				</li>
 
