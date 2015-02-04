@@ -235,78 +235,7 @@ define('SIDEBAR_CLOSED', true);
 					при проведении оперативно- разыскных мероприятий».
 				</p>
 			</li>
-			<li data-equalheight class="col-xs-6 col-lg-4 b-laws__item">
-				<a class="b-laws__link" href="#">Приказ Минкомсвязи РФ от 11 июля 2011г. №174</a>
-				<p class="b-laws__text">
-					«Об утверждении Правил применения оборудования систем коммутации, включая программное обеспечение, обеспечивающего выполнение установленных действий 
-					при проведении оперативно- разыскных мероприятий» 
-				</p>
-			</li>
-
-
-
-
-			<li data-equalheight class="col-xs-6 col-lg-4 b-laws__item     visible-lg"    id="laws_item_third">
-
-
-				<!-- ДЛЯ БЭКЭНДА: не забудьте класс и id для третьего элемента -->
-
-
-				<a class="b-laws__link" href="#">Приказ Госкомсвязи РФ № 70 от 20.04.1999 года</a>
-				<p class="b-laws__text">
-					«О технических требованиях к системе технических средств 
-					для обеспечения функций оперативно-розыскных мероприятий на сетях электросвязи Российской Федерации»
-				</p>
-			</li>
-
-
-
-
-
-			<li data-equalheight class="col-xs-6 col-lg-4 b-laws__item   hidden">
-				<a class="b-laws__link" href="#">Приказ Минкомсвязи РФ от 19 ноября 2012г. №268</a>
-				<p class="b-laws__text">
-					«Об утверждении Правил применения оборудования систем коммутации, включая программное обеспечение, обеспечивающего выполнение установленных действий 
-					при проведении оперативно- разыскных мероприятий».
-				</p>
-			</li>
-			<li data-equalheight class="col-xs-6 col-lg-4 b-laws__item   hidden">
-				<a class="b-laws__link" href="#">Приказ Минкомсвязи РФ от 11 июля 2011г. №174</a>
-				<p class="b-laws__text">
-					«Об утверждении Правил применения оборудования систем коммутации, включая программное обеспечение, обеспечивающего выполнение установленных действий 
-				</p>
-			</li>
-			<li data-equalheight class="col-xs-6 col-lg-4 b-laws__item   hidden">
-				<a class="b-laws__link" href="#">Приказ Госкомсвязи РФ № 70 от 20.04.1999 года</a>
-				<p class="b-laws__text">
-					для обеспечения функций оперативно-розыскных мероприятий на сетях электросвязи Российской Федерации»
-				</p>
-			</li>
-			<li data-equalheight class="col-xs-6 col-lg-4 b-laws__item   hidden">
-				<a class="b-laws__link" href="#">Приказ Минкомсвязи РФ от 19 ноября 2012г. №268</a>
-				<p class="b-laws__text">
-					«Об утверждении Правил применения оборудования систем коммутации, включая программное обеспечение, обеспечивающего выполнение установленных действий 
-					при проведении оперативно- разыскных мероприятий».
-				</p>
-			</li>
-			<li data-equalheight class="col-xs-6 col-lg-4 b-laws__item   hidden">
-				<a class="b-laws__link" href="#">Приказ Минкомсвязи РФ от 11 июля 2011г. №174</a>
-				<p class="b-laws__text">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, mollitia tempore. Sapiente, quam, repudiandae. Porro neque repellat similique debitis repudiandae ex earum ad, mollitia architecto quam est totam expedita unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias excepturi obcaecati dolores officia. Id recusandae illo, ea alias asperiores sint quos consequatur excepturi mollitia magni itaque, odio, corrupti perferendis vitae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, quis maiores a perspiciatis fugit porro, doloremque neque reprehenderit deserunt repudiandae maxime ipsa reiciendis eius exercitationem adipisci veniam voluptate ex rem.
-				</p>
-			</li>
-			<li data-equalheight class="col-xs-6 col-lg-4 b-laws__item   hidden">
-				<a class="b-laws__link" href="#">Приказ Госкомсвязи РФ № 70 от 20.04.1999 года</a>
-				<p class="b-laws__text">
-					«О технических требованиях к системе технических средств 
-					для обеспечения функций оперативно-розыскных мероприятий на сетях электросвязи Российской Федерации»
-				</p>
-			</li>
 		</ul>
-
-
-
-		<div class="text-center _mb-l"><a id="laws_more" class="b-laws__more" href="#laws_scroll_top"><span></span><i></i></a></div>
 
 	</div>
 

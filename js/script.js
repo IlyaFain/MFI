@@ -367,5 +367,20 @@ $(function()
 
 
 
+	;(function SelectOffice()
+	{
+		var $laws = $('.b-laws__list');
+		if (!$laws.length) return;
+
+		if ($laws.children().length < 3) $laws.addClass('_center-cols');
+
+
+	})();
+
+
+
+
+
+
 
 });
