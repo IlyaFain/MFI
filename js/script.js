@@ -184,6 +184,15 @@ $(function()
 
 
 
+	;(function FeaturesShowMore()
+	{
+		$('#features_collapse').height(100);
+		$('.b-features__more').click(function(){ $(this).toggleClass('_open'); })
+	})();
+
+
+
+
 
 
 

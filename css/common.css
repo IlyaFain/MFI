@@ -1235,6 +1235,13 @@ footer a {
   font-size: 12px;
   color: #101010;
 }
+#features_collapse {
+  display: block !important;
+  margin-bottom: 30px;
+  min-height: 100px !important;
+  overflow: hidden;
+  visibility: visible !important;
+}
 /*----------------- Внутренние страницы (конец) -----------------*/
 /*----------------------------- Общие стили (конец) ---------------------------
 */

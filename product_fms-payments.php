@@ -134,11 +134,11 @@ define('SIDEBAR_CLOSED', true);
 
 	<div class="b-features _mb-l _border-bottom">
 
-		<h2 class="text-center b-features__title _mb-l" data-toggle="collapse" data-target="#features_collapse"><span>Функциональные возможности</span></h2>
+		<h2 id="features_scroll_top" class="text-center b-features__title _mb-l" data-toggle="collapse" data-target="#features_collapse"><span>Функциональные возможности</span></h2>
 
 
 
-		<div id="features_collapse" class="collapse in">
+		<div id="features_collapse" class="collapse" aria-expanded="true">
 
 			<div class="b-features__text">
 
@@ -201,14 +201,16 @@ define('SIDEBAR_CLOSED', true);
 				
 			</div>
 
-			<div class="text-center">
-				<div class="text-center _mb-l">
-					<a class="b-features__more _open" href="#laws_scroll_top" data-toggle="collapse" data-target="#features_collapse">
-						<span></span><i></i>
-					</a>
-				</div>
-			</div>
+		</div>
 
+
+
+		<div class="text-center">
+			<div class="text-center _mb-l">
+				<a class="b-features__more" href="#features_scroll_top" data-toggle="collapse" data-target="#features_collapse">
+					<span></span><i></i>
+				</a>
+			</div>
 		</div>
 
 
