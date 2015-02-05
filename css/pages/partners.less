@@ -127,11 +127,13 @@
 
 	input:checked + i {
 		&:before {
-			content: "✓";
+			top:0;
 		}
 	}
 
 	i {
+		position: relative;
+		overflow: hidden;
 		.box-sizing(border-box);
 		display: inline-block;
 		vertical-align: middle;
@@ -143,6 +145,13 @@
 		margin-right: 5px;
 		padding-left: 1px;
 		border: 1px solid @violet;
+
+		&:before {
+			content: "✓";
+			position: absolute;
+			top: 100%;
+			.transition(0.2s top);
+		}
 	}
 }
 

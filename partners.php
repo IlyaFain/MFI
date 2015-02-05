@@ -49,10 +49,10 @@
 
 	<form action="" method="post" class="row">
 		<div class="col-xs-5">
-			<input class="_mb-xs" type="text" name="" placeholder="Компания" required>
-			<input class="_mb-xs" type="text" name="" placeholder="ФИО" required>
-			<input class="_mb-xs" type="text" name="" placeholder="Телефон" required>
-			<input class="_mb-xs" type="text" name="" placeholder="E-mail" required>
+			<input class="_mb-xs" type="text" name="partnership_company" placeholder="Компания" required>
+			<input class="_mb-xs" type="text" name="partnership_fio" placeholder="ФИО" required>
+			<input class="_mb-xs" type="text" name="partnership_phone" placeholder="Телефон" required>
+			<input class="_mb-xs" type="text" name="partnership_email" placeholder="E-mail" required>
 		</div>
 		<div class="col-xs-7">
 			<h3 class="_mb-xs">Интересующий продукт</h3>
@@ -65,14 +65,14 @@
 				<div class="col-xs-4"><label class="b-partnership__checkbox"><input name="partnership_guardap" type="checkbox"><i></i><span>Гарда-предприятие</span></label></div>
 			</div>
 			<div class="row">
-				<div class="col-xs-8 b-modal-vacancy__file">
-					<input type="file" name="vacancy_file">
+				<div class="col-xs-8 b-modal__file">
+					<input type="file" name="partnership_file">
 					<div class="row">
 						<div class="col-xs-6 _fake">Карточка компании</div>
 						<div class="col-xs-6"><a class="b-modal__action btn">Выберите файл</a></div>
 					</div>
 				</div>
-				<div class="col-xs-4 b-modal-vacancy__file-hint">Нам интересна информация о компании и ее специализации в формате doc или pdf.</div>
+				<div class="col-xs-4 b-modal__file-hint">Нам интересна информация о компании и ее специализации в формате doc или pdf.</div>
 			</div>
 		</div>
 		<div class="col-xs-12">

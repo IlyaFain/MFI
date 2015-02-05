@@ -191,7 +191,7 @@
   padding: 11px;
   resize: vertical;
 }
-.b-modal-vacancy__file {
+.b-modal__file {
   position: relative;
   line-height: 44px;
   color: #bea2cc;
@@ -204,7 +204,7 @@
 		text-overflow: ellipsis;
 	} */
 }
-.b-modal-vacancy__file input[type=file] {
+.b-modal__file input[type=file] {
   position: absolute;
   z-index: 1;
   width: 100%;
@@ -217,7 +217,7 @@
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   cursor: pointer;
 }
-.b-modal-vacancy__file .b-modal__action {
+.b-modal__file .b-modal__action {
   padding: 0 15px;
   margin-top: 0 !important;
 }
@@ -226,13 +226,13 @@
   font-size: 16px;
   margin-top: 35px;
 }
-.b-modal-vacancy__file-hint {
+.b-modal__file-hint {
   font-size: 12px;
   color: #bea2cc;
   position: relative;
   padding-left: 22px;
 }
-.b-modal-vacancy__file-hint i {
+.b-modal__file-hint i {
   position: absolute;
   left: 0;
   top: 0;

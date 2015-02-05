@@ -1480,7 +1480,7 @@ footer a {
   padding: 11px;
   resize: vertical;
 }
-.b-modal-vacancy__file {
+.b-modal__file {
   position: relative;
   line-height: 44px;
   color: #bea2cc;
@@ -1493,7 +1493,7 @@ footer a {
 		text-overflow: ellipsis;
 	} */
 }
-.b-modal-vacancy__file input[type=file] {
+.b-modal__file input[type=file] {
   position: absolute;
   z-index: 1;
   width: 100%;
@@ -1506,7 +1506,7 @@ footer a {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   cursor: pointer;
 }
-.b-modal-vacancy__file .b-modal__action {
+.b-modal__file .b-modal__action {
   padding: 0 15px;
   margin-top: 0 !important;
 }
@@ -1515,13 +1515,13 @@ footer a {
   font-size: 16px;
   margin-top: 35px;
 }
-.b-modal-vacancy__file-hint {
+.b-modal__file-hint {
   font-size: 12px;
   color: #bea2cc;
   position: relative;
   padding-left: 22px;
 }
-.b-modal-vacancy__file-hint i {
+.b-modal__file-hint i {
   position: absolute;
   left: 0;
   top: 0;
@@ -2529,9 +2529,11 @@ footer a {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
 }
 .b-partnership__checkbox input:checked + i:before {
-  content: "✓";
+  top: 0;
 }
 .b-partnership__checkbox i {
+  position: relative;
+  overflow: hidden;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -2545,6 +2547,14 @@ footer a {
   margin-right: 5px;
   padding-left: 1px;
   border: 1px solid #810295;
+}
+.b-partnership__checkbox i:before {
+  content: "✓";
+  position: absolute;
+  top: 100%;
+  -webkit-transition: 0.2s top;
+  -moz-transition: 0.2s top;
+  transition: 0.2s top;
 }
 /*------------------------------ Партнеры (конец) ---------------------------*/
 /*--------------------- Индивидуальные стили страниц (конец) ----------------

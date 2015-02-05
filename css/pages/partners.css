@@ -125,9 +125,11 @@
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
 }
 .b-partnership__checkbox input:checked + i:before {
-  content: "✓";
+  top: 0;
 }
 .b-partnership__checkbox i {
+  position: relative;
+  overflow: hidden;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -141,5 +143,13 @@
   margin-right: 5px;
   padding-left: 1px;
   border: 1px solid #810295;
+}
+.b-partnership__checkbox i:before {
+  content: "✓";
+  position: absolute;
+  top: 100%;
+  -webkit-transition: 0.2s top;
+  -moz-transition: 0.2s top;
+  transition: 0.2s top;
 }
 /*------------------------------ Партнеры (конец) ---------------------------*/
