@@ -386,10 +386,10 @@ define('SIDEBAR_CLOSED', true);
 
 
 		<div class="row _mb-l">
-			<div class="col-xs-3 text-center"><a href="#"><img alt="" src="img/content/licences/1.png"></a></div>
-			<div class="col-xs-3 text-center"><a href="#"><img alt="" src="img/content/licences/2.png"></a></div>
-			<div class="col-xs-3 text-center"><a href="#"><img alt="" src="img/content/licences/3.png"></a></div>
-			<div class="col-xs-3 text-center"><a href="#"><img alt="" src="img/content/licences/4.png"></a></div>
+			<div class="col-xs-3 text-center"><a data-lightbox="licences" href="img/content/licences/large.jpg"><img alt="" src="img/content/licences/1.png"></a></div>
+			<div class="col-xs-3 text-center"><a data-lightbox="licences" href="img/content/licences/large.jpg"><img alt="" src="img/content/licences/2.png"></a></div>
+			<div class="col-xs-3 text-center"><a data-lightbox="licences" href="img/content/licences/large.jpg"><img alt="" src="img/content/licences/3.png"></a></div>
+			<div class="col-xs-3 text-center"><a data-lightbox="licences" href="img/content/licences/large.jpg"><img alt="" src="img/content/licences/4.png"></a></div>
 		</div>
 
 	</div>
