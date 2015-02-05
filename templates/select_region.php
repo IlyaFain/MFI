@@ -81,3 +81,8 @@
 <option value="87">Чукотский автономный округ</option>
 <option value="89">Ямало-Ненецкий автономный округ</option>
 <option value="76">Ярославская область</option>
+
+<option value="KZ">Казахстан</option>
+<option value="BY">Беларусь</option>
+<option value="UA">Украина</option>
+<option value="CZ">Чехия</option>

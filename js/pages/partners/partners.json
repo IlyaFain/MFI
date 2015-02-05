@@ -134,5 +134,30 @@
 	{
 		"КРОК": { "url":"", "info":"" },
 		"Микротест": { "url":"", "info":"" }
+	},
+
+	"KZ":
+	{
+		"CPS": { "url":"", "info":"" },
+		"Протех": { "url":"", "info":"" },
+		"NVision Group": { "url":"", "info":"" },
+		"Пацифика": { "url":"", "info":"" },
+		"Esentai System Integration": { "url":"", "info":"" }
+	},
+
+	"BY":
+	{
+		"БЕЛСОФТ": { "url":"", "info":"" },
+		"NVision Group": { "url":"", "info":"" }
+	},
+
+	"UA":
+	{
+		"NVision Group": { "url":"", "info":"" }
+	},
+
+	"CZ":
+	{
+		"NVision Group": { "url":"", "info":"" }
 	}
 }

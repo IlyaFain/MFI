@@ -12,7 +12,8 @@ $(function()
 	// карта
 	(function SVGmap()
 	{
-		var $select = $('#select_region');
+		var $select = $('#select_region'),
+			value = $('#select_region').val();
 
 		$('path')
 			/*.on("mouseenter", function()
@@ -44,19 +45,11 @@ $(function()
 
 
 
-			$('#select_region')
-				.selectBoxIt({ showFirstOption: false, autoWidth: true })
-				.on("change", function()
-				{
-					loadPartners($(this).val());
-					showRegion($(this).val());
-				});
-
 
 
 			var loadPartners = function(regionCode)
 			{
-				var globalPartnersData = 
+				var globalRusPartnersData = 
 				{
 					"Inline Telecom Solutions": { url:"", info:"" },
 					"LETA": { url:"", info:"" },
@@ -76,7 +69,10 @@ $(function()
 						var partnersData = typeof response[regionCode] != "undefined" ? response[regionCode] : {},
 							html = '';
 
-						$.extend(partnersData, globalPartnersData);
+						if (!isNaN(parseInt(regionCode)))
+						{
+							$.extend(partnersData, globalRusPartnersData);
+						}
 
 						for (var name in partnersData)
 						{
@@ -105,6 +101,23 @@ $(function()
 				$('path[class="st0 _active"]').attr("class", "st0");
 				$('path[data-code="' + regionCode + '"]').attr("class", "st0 _active");
 			}
+
+
+
+			$('#select_region')
+				.selectBoxIt({ showFirstOption: false, autoWidth: true })
+				.on("change", function()
+				{
+					loadPartners($(this).val());
+					showRegion($(this).val());
+				});
+
+			if (value != "0")
+			{
+				loadPartners(value);
+				showRegion(value);
+			}
+
 
 
 		

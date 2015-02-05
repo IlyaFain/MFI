@@ -2416,7 +2416,7 @@ footer a {
 .b-partners__selectbox select.js-selectboxit,
 .b-partners__selectbox .selectboxit,
 .b-partners__selectbox .selectboxit-container .selectboxit-options {
-  min-width: 200px;
+  min-width: 100px;
   max-width: 800px;
 }
 .b-partners__selectbox .selectboxit-btn {
