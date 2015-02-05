@@ -238,7 +238,7 @@
 							<div class="col-xs-6"><a class="b-modal__action btn">Выберите файл</a></div>
 						</div>
 					</div>
-					<div class="b-modal-vacancy__file-hint"><i>☺</i> Приветствуется doc-файл с информацией о вас, образовании, навыками и умениями.</div class="b-modal-vacancy__file-hint">
+					<div class="b-modal-vacancy__file-hint"><i>☺</i> Приветствуется doc-файл с информацией о вас, образовании, навыками и умениями.</div>
 				</div>
 
 				<div class="col-xs-12">

@@ -26,7 +26,7 @@
 	.selectboxit,
 	.selectboxit-container .selectboxit-options {
 		min-width: 200px;
-		max-width: 700px;
+		max-width: 800px;
 	}
 
 	.selectboxit-btn {
@@ -75,6 +75,76 @@
 
 
 
+.b-partnership {
+	padding-bottom: 50px;
+
+	input[type=text],
+	textarea {
+		width: 360px;
+		height: 44px;
+		padding: 0 10px;
+		border: 2px solid #dad5e7;
+		font-weight: bold;
+		font-size: 16px;
+		color: @violet;
+
+		&:-moz-placeholder            { color:@violet; opacity:0.3; }
+		&::-moz-placeholder           { color:@violet; opacity:0.3; }
+		&:-ms-input-placeholder       { color:@violet; opacity:0.3; }
+		&::-webkit-input-placeholder  { color:@violet; opacity:0.3; }
+
+		&:focus:-moz-placeholder            { color:transparent; }
+		&:focus::-moz-placeholder           { color:transparent; }
+		&:focus:-ms-input-placeholder       { color:transparent; }
+		&:focus::-webkit-input-placeholder  { color:transparent; }
+	}
+
+	textarea {
+		width: 100%;
+		min-height: 120px;
+		resize: vertical;
+		padding: 6px 9px;
+	}
+
+	h3 {
+		color: #bea2cc;
+	}
+}
+
+
+.b-partnership__checkbox {
+	position: relative;
+	cursor: pointer;
+	line-height: 16px;
+	font-weight: 300;
+	vertical-align: middle;
+	padding: 15px 0;
+
+	input {
+		position: absolute;
+		.opacity(0);
+	}
+
+	input:checked + i {
+		&:before {
+			content: "✓";
+		}
+	}
+
+	i {
+		.box-sizing(border-box);
+		display: inline-block;
+		vertical-align: middle;
+		width: 16px;
+		height: 16px;
+		line-height: 13px;
+		font-size: 12px;
+		color: @violet;
+		margin-right: 5px;
+		padding-left: 1px;
+		border: 1px solid @violet;
+	}
+}
 
 
 

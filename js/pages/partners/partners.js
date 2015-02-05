@@ -56,6 +56,15 @@ $(function()
 
 			var loadPartners = function(regionCode)
 			{
+				var globalPartnersData = 
+				{
+					"Inline Telecom Solutions": { url:"", info:"" },
+					"LETA": { url:"", info:"" },
+					"КРОК": { url:"", info:"" },
+					"Микротест": { url:"", info:"" },
+					"NVision Group": { url:"", info:"" }
+				};
+
 				$.ajax(
 				{
 					url: "js/pages/partners/partners.json",
@@ -66,6 +75,8 @@ $(function()
 					{
 						var partnersData = typeof response[regionCode] != "undefined" ? response[regionCode] : {},
 							html = '';
+
+						$.extend(partnersData, globalPartnersData);
 
 						for (var name in partnersData)
 						{

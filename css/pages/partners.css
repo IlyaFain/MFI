@@ -13,7 +13,7 @@
 .b-partners__selectbox .selectboxit,
 .b-partners__selectbox .selectboxit-container .selectboxit-options {
   min-width: 200px;
-  max-width: 700px;
+  max-width: 800px;
 }
 .b-partners__selectbox .selectboxit-btn {
   width: auto !important;
@@ -48,5 +48,98 @@
 }
 .b-partners__data > li p {
   padding-left: 17px;
+}
+.b-partnership {
+  padding-bottom: 50px;
+}
+.b-partnership input[type=text],
+.b-partnership textarea {
+  width: 360px;
+  height: 44px;
+  padding: 0 10px;
+  border: 2px solid #dad5e7;
+  font-weight: bold;
+  font-size: 16px;
+  color: #810295;
+}
+.b-partnership input[type=text]:-moz-placeholder,
+.b-partnership textarea:-moz-placeholder {
+  color: #810295;
+  opacity: 0.3;
+}
+.b-partnership input[type=text]::-moz-placeholder,
+.b-partnership textarea::-moz-placeholder {
+  color: #810295;
+  opacity: 0.3;
+}
+.b-partnership input[type=text]:-ms-input-placeholder,
+.b-partnership textarea:-ms-input-placeholder {
+  color: #810295;
+  opacity: 0.3;
+}
+.b-partnership input[type=text]::-webkit-input-placeholder,
+.b-partnership textarea::-webkit-input-placeholder {
+  color: #810295;
+  opacity: 0.3;
+}
+.b-partnership input[type=text]:focus:-moz-placeholder,
+.b-partnership textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+.b-partnership input[type=text]:focus::-moz-placeholder,
+.b-partnership textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+.b-partnership input[type=text]:focus:-ms-input-placeholder,
+.b-partnership textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+.b-partnership input[type=text]:focus::-webkit-input-placeholder,
+.b-partnership textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.b-partnership textarea {
+  width: 100%;
+  min-height: 120px;
+  resize: vertical;
+  padding: 6px 9px;
+}
+.b-partnership h3 {
+  color: #bea2cc;
+}
+.b-partnership__checkbox {
+  position: relative;
+  cursor: pointer;
+  line-height: 16px;
+  font-weight: 300;
+  vertical-align: middle;
+  padding: 15px 0;
+}
+.b-partnership__checkbox input {
+  position: absolute;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+.b-partnership__checkbox input:checked + i:before {
+  content: "✓";
+}
+.b-partnership__checkbox i {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  line-height: 13px;
+  font-size: 12px;
+  color: #810295;
+  margin-right: 5px;
+  padding-left: 1px;
+  border: 1px solid #810295;
 }
 /*------------------------------ Партнеры (конец) ---------------------------*/
