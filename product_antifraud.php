@@ -36,7 +36,7 @@ define('SIDEBAR_CLOSED', true);
 				<li class="b-submenu__item"><a href="#">Лицензии</a></li>
 				<li class="b-submenu__item"><a href="#">Материалы и вебинары</a></li>
 				<li class="b-submenu__item"><a href="#">Клиенты</a></li>
-				<li class="b-submenu__item"><a class="_fill" href="#">Получить консультацию</a></li>
+				<li class="b-submenu__item"><a class="_fill" data-modal-show="#modal_consult" href="#">Получить консультацию</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -431,7 +431,7 @@ define('SIDEBAR_CLOSED', true);
 					<h3 class="_mb-s">Ближайший вебинар</h3>
 					<div class="b-webinars__time _mb-xs"> <time>12 декабря 2014, Москва</time> </div>
 					<div class="_mb-s">Информационная безопасность в России</div>
-					<a href="#" class="btn btn-primary">Записаться</a>
+					<a data-modal-show="#modal_webinar" href="#" class="btn btn-primary">Записаться</a>
 				</div>
 			</div>
 		</div>
@@ -454,7 +454,7 @@ define('SIDEBAR_CLOSED', true);
 					<p class="_mb-l">Мы предоставляем вам возможность проверить свои решения на практике. 
 						Закажите пилотный проект, и мы бесплатно внедрим систему защиты информации 
 						в базах данных «Гарда БД» в вашей компании для тестирования. </p>
-						<a href="#" class="btn btn-primary">Заказать пилотный проект</a>
+						<a data-modal-show="#modal_pilot" href="#" class="btn btn-primary">Заказать пилотный проект</a>
 					</div>
 				</div>
 			</div>

@@ -8,6 +8,9 @@
 
 
 <? if (defined('PAGE_NAME') && PAGE_NAME == 'main') { ?>
+
+	<!-- Подписка на новости -->
+
 	<section id="modal_subscribe" class="b-modal b-subscribe-rules md-modal md-effect-3">
 
 		<a data-modal-hide="#modal_subscribe" class="b-modal__close md-close" href="#" title="Закрыть"></a>
@@ -29,7 +32,7 @@
 
 
 
-
+	<!-- Обратный звонок -->
 
 	<section id="modal_callback" class="b-modal b-callback md-modal md-effect-3">
 
@@ -66,9 +69,48 @@
 
 
 
+	<!-- Консультация -->
+
+	<section id="modal_consult" class="b-modal b-callback md-modal md-effect-3">
+
+		<a data-modal-hide="#modal_consult" class="b-modal__close md-close" href="#" title="Закрыть"></a>
+
+		<div class="b-modal__title">Получить консультацию</div>
+		<div class="b-modal__subtitle">Заполните форму и мы ответим на любые вопросы</div>
+
+		<form class="b-callback__form" name="consult" action="" method="post">
+			<div class="form-group">
+				<input name="consult_name" type="text" class="form-control b-callback__input" id="" placeholder="Ваше имя">
+			</div>
+			<div class="form-group">
+				<input name="consult_phone" type="tel" class="form-control b-callback__input" id="" placeholder="Телефон">
+			</div>
+			<div class="form-group">
+				<div class="b-callback__label">Желаемое время для звонка</div>
+				<div class="b-callback__select">
+					<select class="js-selectboxit b-callback__time" name="consult_time" id="callback_time">
+						<option value="1">с 9 до 12 часов</option>
+						<option value="2">с 12 до 15 часов</option>
+						<option value="3">с 15 до 18 часов</option>
+						<option value="4">с 18 до 21 часа</option>
+					</select>
+				</div>
+			</div>
+			
+			<button type="submit" class="b-modal__action btn">Получить консультацию</button>
+		</form>
+
+	</section>
+
+
+
+
+
 
 
 <? if (defined('PAGE_NAME') && PAGE_NAME == 'carreer') { ?>
+
+	<!-- Вакансия 1 -->
 
 	<section id="modal_vacancy" class="b-modal b-modal-vacancy md-modal md-effect-3">
 
@@ -156,9 +198,9 @@
 
 
 
+	<!-- Вакансия 2 -->
 
-
-<section id="modal_vacancy_another" class="b-modal b-modal-vacancy md-modal md-effect-3">
+	<section id="modal_vacancy_another" class="b-modal b-modal-vacancy md-modal md-effect-3">
 
 		<a data-modal-hide="#modal_vacancy_another" class="b-modal__close md-close" href="#" title="Закрыть"></a>
 
@@ -211,13 +253,73 @@
 	</section>
 
 
-
-
-
-
-
-
 <? } ?>
+
+
+
+
+
+
+
+
+
+	<!-- Пилотный проект -->
+
+	<section id="modal_pilot" class="b-modal _no-min-height md-modal md-effect-3">
+
+		<a data-modal-hide="#modal_pilot" class="b-modal__close md-close" href="#" title="Закрыть"></a>
+
+		<div class="b-modal__title">Заказ пилотного проекта</div>
+		<div class="b-modal__subtitle">Заполните форму, и мы расскажем, что делать дальше</div>
+
+		<form class="b-callback__form" name="pilot" action="" method="post">
+			<div class="form-group">
+				<input name="pilot_name" type="text" class="form-control b-callback__input" id="" placeholder="Ваше имя">
+			</div>
+			<div class="form-group">
+				<input name="pilot_phone" type="tel" class="form-control b-callback__input" id="" placeholder="Телефон">
+			</div>
+			
+			<button type="submit" class="b-modal__action btn">Заказать пилотный проект</button>
+		</form>
+
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Вебинар -->
+
+	<section id="modal_webinar" class="b-modal _no-min-height md-modal md-effect-3">
+
+		<a data-modal-hide="#modal_webinar" class="b-modal__close md-close" href="#" title="Закрыть"></a>
+
+		<div class="b-modal__title">Запись на вебинар</div>
+		<div class="b-modal__subtitle">Заполните форму и мы вышлем вам на почту подробности</div>
+
+		<form class="b-callback__form" name="webinar" action="" method="post">
+			<div class="form-group">
+				<input name="webinar_name" type="text" class="form-control b-callback__input" id="" placeholder="Ваше имя">
+			</div>
+			<div class="form-group">
+				<input name="webinar_phone" type="tel" class="form-control b-callback__input" id="" placeholder="Телефон">
+			</div>
+			
+			<button type="submit" class="b-modal__action btn">Записаться на вебинар</button>
+		</form>
+
+	</section>
+
+
+
 
 
 
