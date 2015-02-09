@@ -1732,7 +1732,7 @@ footer a {
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.15);
 }
 .b-apply {
-  height: 280px;
+  min-height: 280px;
   padding: 45px 100px;
   background-color: #888;
   color: #fff;
