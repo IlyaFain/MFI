@@ -26,6 +26,12 @@
 		</div>
 
 
+		<div class="btn-group" role="group" aria-label="...">
+			<a type="button" class="btn btn-default active" data-toggle="tab" href="#tab1">Фото</a>
+			<a type="button" class="btn btn-default" data-toggle="tab" href="#tab2">Видео</a>
+		</div>
+
+
 
 
 	<div class="b-gallery-page _mb-l">
