@@ -1229,10 +1229,12 @@ footer a {
 }
 
 .b-gallery-page {
-	
+	position: relative;
 }
 
 .b-gallery-page__item {
+	min-height: 210px;
+
 	img {
 		width: 100%;
 		display: block;
@@ -1242,6 +1244,22 @@ footer a {
 		display: block;
 	}
 }
+
+.b-gallery-page__tab-buttons {
+	position: absolute;
+	right: 0;
+	bottom: 100%;
+	margin-bottom: 45px;
+
+	.btn { padding-left: 30px !important; padding-right: 30px !important; }
+	.btn.active { background: @violet; color: #fff;}
+}
+
+.b-gallery-page__text {
+	max-width: 640px;
+}
+
+
 
 .b-apply.b-about-advantages {
 	background: url(../img/bg/about.jpg) center center no-repeat;

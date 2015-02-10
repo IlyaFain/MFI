@@ -177,6 +177,8 @@ $(function()
 					.siblings()
 					.removeClass('active');
 			}
+
+			setTimeout(function(){$window.trigger("resize");}, 100);
 		})
 	})();
 
@@ -400,11 +402,28 @@ $(function()
 			if ($this.val()) update();
 		});
 
-		
-
-		
 
 	})();
+
+
+
+	(function Gallery()
+	{
+		var $gallery = $('.b-gallery-page');
+
+		$window.onTimeout("resize", function()
+		{
+			$gallery
+				.css("height", "auto")
+				.height("height", $gallery.height() + "px");
+		});
+
+	})();
+
+	
+
+	
+
 
 
 

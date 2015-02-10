@@ -1158,12 +1158,35 @@ footer a {
 .b-licences__caption {
   padding-left: 50px;
 }
+.b-gallery-page {
+  position: relative;
+}
+.b-gallery-page__item {
+  min-height: 210px;
+}
 .b-gallery-page__item img {
   width: 100%;
   display: block;
 }
 .b-gallery-page__item span {
   display: block;
+}
+.b-gallery-page__tab-buttons {
+  position: absolute;
+  right: 0;
+  bottom: 100%;
+  margin-bottom: 45px;
+}
+.b-gallery-page__tab-buttons .btn {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+.b-gallery-page__tab-buttons .btn.active {
+  background: #810295;
+  color: #fff;
+}
+.b-gallery-page__text {
+  max-width: 640px;
 }
 .b-apply.b-about-advantages {
   background: url(../img/bg/about.jpg) center center no-repeat;
