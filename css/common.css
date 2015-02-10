@@ -852,6 +852,9 @@ footer a {
 .b-inner-text {
   max-width: 700px;
 }
+.b-inner-text li {
+  display: list-item;
+}
 .b-support {
   margin-bottom: 100px;
 }
