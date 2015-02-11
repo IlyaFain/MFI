@@ -7,14 +7,6 @@
 
 
 
-<? require_once('templates/sidebar_inner_top.php'); ?>
-
-				<!-- <li class="_secondary"><a title="____" href="#"><span>____</span></a></li> -->
-
-<? require_once('templates/sidebar_inner_bottom.php'); ?>
-
-
-
 
 	<div class="col-xs-12 b-content">
 
@@ -114,7 +106,7 @@
 
 	</div>
 
-
+</div>
 
 
 <? require_once('templates/footer.php'); ?>

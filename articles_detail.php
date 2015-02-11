@@ -7,16 +7,6 @@
 
 
 
-<? require_once('templates/sidebar_inner_top.php'); ?>
-
-				<li class="_secondary"><a title="Мероприятия" href="#"><span>Мероприятия</span></a></li>
-				<li class="_secondary"><a title="Статьи" href="#"><span>Статьи</span></a></li>
-				<li class="_secondary"><a title="Галерея" href="#"><span>Галерея</span></a></li>
-
-<? require_once('templates/sidebar_inner_bottom.php'); ?>
-
-
-
 
 	<div class="col-xs-12 b-content">
 
