@@ -1269,6 +1269,27 @@ footer a {
 	max-width: 640px;
 }
 
+.b-gallery-page__img-wrapper {
+	position: relative;
+
+	&:hover > span { display: block; }
+
+	& > span {
+		display: none;
+		color: #fff;
+		.layer();
+		padding: 0 20px;
+		background: rgba(61,74,88,0.8);
+		.centering-the-unknown();
+
+		& > i {
+			font-style: normal;
+			font-size: 14px;
+			line-height: 20px;
+		}
+	}
+}
+
 
 
 .b-apply.b-about-advantages {

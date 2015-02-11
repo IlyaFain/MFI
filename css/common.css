@@ -1198,6 +1198,43 @@ footer a {
 .b-gallery-page__text {
   max-width: 640px;
 }
+.b-gallery-page__img-wrapper {
+  position: relative;
+}
+.b-gallery-page__img-wrapper:hover > span {
+  display: block;
+}
+.b-gallery-page__img-wrapper > span {
+  display: none;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0 20px;
+  background: rgba(61, 74, 88, 0.8);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 0;
+}
+.b-gallery-page__img-wrapper > span:before {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle;
+}
+.b-gallery-page__img-wrapper > span > * {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: medium;
+  max-width: 100%;
+}
+.b-gallery-page__img-wrapper > span > i {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
 .b-apply.b-about-advantages {
   background: url(../img/bg/about.jpg) center center no-repeat;
   -webkit-background-size: cover;

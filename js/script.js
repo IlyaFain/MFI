@@ -424,6 +424,16 @@ $(function()
 				.height("height", $gallery.height() + "px");
 		});
 
+
+		$gallery.find('.b-gallery-page__item').find('img').each(function(index, element)
+		{
+			var $this = $(element),
+				text = $this.attr("alt");
+
+			if (text) $this.before('<span><i>' + text + '</i></span>');
+
+		});
+
 	})();
 
 	
