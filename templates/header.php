@@ -41,24 +41,29 @@
 <div class="row b-all">
 
 
-<?
-	/* Сайдбар на внутренних страницах свой */
-	if (!defined('IS_INNER_PAGE')) { ?>
-
 	<div id="sidebar" class="col-xs-2 b-sidebar <? if(defined('SIDEBAR_CLOSED')){?> _closed <?}?> ">
 
 		<button id="menu_button" class="b-sidebar__menu-button"><i></i></button>
 
 		<nav>
 			<a title="На главную" class="b-sidebar__go-home" href="#"><img src="img/logo/mfi_sidebar.png" alt="На главную"></a>
-			<ul>
-				<li><a title="Решения" href="#"><i class="i-sidebar _solution"></i><span>Решения</span></a></li>
+			<ul id="mainmenu">
+				<li><a id="submenu_open" title="Продукты" href="#"><i class="i-sidebar _solution"></i><span>Решения</span></a></li>
 				<li><a title="Компания" href="#"><i class="i-sidebar _company"></i><span>Компания</span></a></li>
 				<li><a title="Аналитика" href="#"><i class="i-sidebar _events"></i><span>Аналитика</span></a></li>
 				<li><a title="Пресс-центр" href="#"><i class="i-sidebar _press"></i><span>Пресс-центр</span></a></li>
 				<li><a title="Партнеры" href="#"><i class="i-sidebar _partners"></i><span>Партнеры</span></a></li>
 				<li><a title="Контакты" href="#"><i class="i-sidebar _contacts"></i><span>Контакты</span></a></li>
 			</ul>
+
+			<ul id="submenu" style="display:none">
+				<li><a id="submenu_close" title="Назад" href="#"><i class="i-sidebar _back"><b class="i-back">←</b></i><span><b class="i-back">←</b>Назад</span></a></li>
+				<li class="_secondary"><a title="Информационная безопасность" href="#"><span>Информационная безопасность</span></a></li>
+				<li class="_secondary"><a title="СОРМ" href="#"><span>СОРМ</span></a></li>
+				<li class="_secondary"><a title="Фильтрация траффика" href="#"><span>Фильтрация траффика</span></a></li>
+				<li class="_secondary"><a title="Антифрод" href="#"><span>Антифрод</span></a></li>
+			</ul>
+
 		</nav>
 
 		<div class="b-sidebar__phone">
@@ -71,4 +76,3 @@
 		<a id="sidebar_goto_top" href="#" class="b-sidebar__goto-top">Наверх</a>
 	</div>
 
-<? } ?>

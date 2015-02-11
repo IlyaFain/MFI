@@ -159,6 +159,12 @@ $(function()
 			$htmlbody.stop(true,false).animate({scrollTop:0}, 500);
 		});
 
+		$('#submenu_open, #submenu_close').click(function(event)
+		{
+			event.preventDefault();
+			$('#submenu, #mainmenu').toggle();
+		})
+
 
 	})();
 
