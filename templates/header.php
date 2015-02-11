@@ -50,6 +50,7 @@
 		<button id="menu_button" class="b-sidebar__menu-button"><i></i></button>
 
 		<nav>
+			<a title="На главную" class="b-sidebar__go-home" href="#"><img src="img/logo/mfi_sidebar.png" alt="На главную"></a>
 			<ul>
 				<li><a title="Решения" href="#"><i class="i-sidebar _solution"></i><span>Решения</span></a></li>
 				<li><a title="Компания" href="#"><i class="i-sidebar _company"></i><span>Компания</span></a></li>

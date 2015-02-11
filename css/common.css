@@ -168,8 +168,8 @@ a._no-underline:hover {
   width: 100%;
   padding-left: 120px;
 }
-.b-sidebar._closed nav {
-  background: url(../img/logo/mfi_sidebar.png) center 40px no-repeat;
+.b-sidebar._closed .b-sidebar__go-home {
+  display: block;
 }
 .b-sidebar._closed nav ul > li a span {
   display: none;
@@ -185,6 +185,7 @@ a._no-underline:hover {
   display: none;
 }
 .b-sidebar nav {
+  position: relative;
   padding-top: 100px;
   margin-left: -15px;
   margin-right: -15px;
@@ -282,6 +283,12 @@ a._no-underline:hover {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#485562', endColorstr='#3d4854', GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
+}
+.b-sidebar__go-home {
+  display: none;
+  position: absolute;
+  left: 19px;
+  top: 40px;
 }
 @media screen and (max-width: 1400px) {
   .b-sidebar__phone {
