@@ -38,12 +38,14 @@
 	<script src="js/libs/jquery-ui.core.min.js"></script>
 	<script src="js/libs/jquery.selectBoxIt.min.edit.js"></script>
 	<script src="js/libs/lightbox.min.js"></script>
+	<script src="js/libs/litebox.min.edit.js"></script>
 
 	<?
 		antiCache('js/modules/equalheight.js');
 		antiCache('js/modules/resize.js');
 		antiCache('js/modules/fx-modal.js');
 		antiCache('js/script.js');
+		//antiCache('js/libs/jquery.fancybox.pack.js');
 
 		if (defined('PAGE_NAME') && PAGE_NAME == 'partners') antiCache('js/pages/partners/partners.js');
 	?>

@@ -61,13 +61,13 @@
 			<div role="tabpanel" class="tab-pane fade" id="tab2">
 				<!-- Видео -->
 				<div class="row">
-					<div data-equalheight class="b-gallery-page__item col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="img/content/gallery/large.jpg" data-lightbox="gallery"><img class="_mb-xs" src="img/content/gallery/9.jpg" alt=""><span>Видео «Clouds-NN 2013»</span></a></div>
-					<div data-equalheight class="b-gallery-page__item col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="img/content/gallery/large.jpg" data-lightbox="gallery"><img class="_mb-xs" src="img/content/gallery/10.jpg" alt=""><span>Видео «Clouds-NN 2013»</span></a></div>
-					<div data-equalheight class="b-gallery-page__item col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="img/content/gallery/large.jpg" data-lightbox="gallery"><img class="_mb-xs" src="img/content/gallery/11.jpg" alt=""><span>Видео «Clouds-NN 2013»</span></a></div>
-					<div data-equalheight class="b-gallery-page__item col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="img/content/gallery/large.jpg" data-lightbox="gallery"><img class="_mb-xs" src="img/content/gallery/12.jpg" alt=""><span>Видео «Clouds-NN 2013»</span></a></div>
-					<div data-equalheight class="b-gallery-page__item col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="img/content/gallery/large.jpg" data-lightbox="gallery"><img class="_mb-xs" src="img/content/gallery/14.jpg" alt=""><span>Видео «Clouds-NN 2013»</span></a></div>
-					<div data-equalheight class="b-gallery-page__item col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="img/content/gallery/large.jpg" data-lightbox="gallery"><img class="_mb-xs" src="img/content/gallery/15.jpg" alt=""><span>Видео «Clouds-NN 2013»</span></a></div>
-					<div data-equalheight class="b-gallery-page__item col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="img/content/gallery/large.jpg" data-lightbox="gallery"><img class="_mb-xs" src="img/content/gallery/1.jpg" alt=""><span>Видео «Clouds-NN 2013»</span></a></div>
+					<div data-equalheight class="b-gallery-page__item col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="http://www.youtube.com/watch?v=ctWJl5EB1cA" data-litebox><img class="_mb-xs" src="img/content/gallery/9.jpg" alt=""><span>Видео «Clouds-NN 2013»</span></a></div>
+					<div data-equalheight class="b-gallery-page__item col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="http://www.youtube.com/watch?v=ctWJl5EB1cA" data-litebox><img class="_mb-xs" src="img/content/gallery/10.jpg" alt=""><span>Видео «Clouds-NN 2013»</span></a></div>
+					<div data-equalheight class="b-gallery-page__item col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="http://www.youtube.com/watch?v=ctWJl5EB1cA" data-litebox><img class="_mb-xs" src="img/content/gallery/11.jpg" alt=""><span>Видео «Clouds-NN 2013»</span></a></div>
+					<div data-equalheight class="b-gallery-page__item col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="http://www.youtube.com/watch?v=ctWJl5EB1cA" data-litebox><img class="_mb-xs" src="img/content/gallery/12.jpg" alt=""><span>Видео «Clouds-NN 2013»</span></a></div>
+					<div data-equalheight class="b-gallery-page__item col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="http://www.youtube.com/watch?v=ctWJl5EB1cA" data-litebox><img class="_mb-xs" src="img/content/gallery/14.jpg" alt=""><span>Видео «Clouds-NN 2013»</span></a></div>
+					<div data-equalheight class="b-gallery-page__item col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="http://www.youtube.com/watch?v=ctWJl5EB1cA" data-litebox><img class="_mb-xs" src="img/content/gallery/15.jpg" alt=""><span>Видео «Clouds-NN 2013»</span></a></div>
+					<div data-equalheight class="b-gallery-page__item col-xs-4 col-lg-3 _mb-l"><a class="_underline" href="http://www.youtube.com/watch?v=ctWJl5EB1cA" data-litebox><img class="_mb-xs" src="img/content/gallery/1.jpg" alt=""><span>Видео «Clouds-NN 2013»</span></a></div>
 				</div>
 			</div>
 		</div>

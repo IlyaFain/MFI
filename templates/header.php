@@ -28,6 +28,8 @@
 		antiCache('css/default/fx-modal.css');
 		antiCache('css/default/selectboxit.css');
 		antiCache('css/default/lightbox.edit.css');
+		antiCache('css/default/litebox.edit.css');
+		//antiCache('css/default/jquery.fancybox.css');
 		antiCache('css/common.css');
 	?>
 
