@@ -102,6 +102,17 @@
 .b-product-intro {
   height: 120px;
 }
+.b-product-intro._wide-pic .b-product-intro__text h3 {
+  display: inline;
+}
+.b-product-intro._wide-pic .b-product-intro__text h3 .b-product-intro__link {
+  display: inline;
+  white-space: normal;
+}
+.b-product-intro._wide-pic .b-product-intro__text p {
+  padding-left: 251px;
+  padding-top: 8px;
+}
 .b-product-intro__logo {
   float: left;
   margin-right: 15px;
