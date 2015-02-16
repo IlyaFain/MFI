@@ -163,6 +163,13 @@ $(function()
 		{
 			event.preventDefault();
 			$('#submenu, #mainmenu').toggle();
+
+			if ($sidebar.hasClass('_closed'))
+			{
+				$sidebar.removeClass('_closed');
+				$window.trigger("resize");
+			}
+
 		})
 
 
