@@ -80,6 +80,8 @@ a {
 	&._no-underline:hover    { text-decoration: none }
 }
 
+.slick-next:focus, .slick-prev:focus { outline: none !important }
+
 
 .btn {
 	font-size: 16px;
@@ -471,6 +473,15 @@ a {
 	&._sorm { background-image: url(../img/bg/sorm.png) }
 	&._traff { background-image: url(../img/bg/traff.png) }
 	&._fraud { background-image: url(../img/bg/fraud.png) }
+}
+
+@media screen and (min-width: 1366px) {
+	.b-direction__link {
+		&._sec { background-image: url(../img/bg/sec2.png) }
+		&._sorm { background-image: url(../img/bg/sorm2.png) }
+		&._traff { background-image: url(../img/bg/traff2.png) }
+		&._fraud { background-image: url(../img/bg/fraud2.png) }
+	}
 }
 
 .b-direction__title {

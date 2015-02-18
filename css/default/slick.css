@@ -43,6 +43,9 @@
 .slick-next:before { content: "→"; }
 [dir="rtl"] .slick-next:before { content: "←"; }
 
+.slick-next:focus,
+.slick-prev:focus { outline: none !important }
+
 /* Dots */
 .slick-slider { margin-bottom: 30px; }
 
