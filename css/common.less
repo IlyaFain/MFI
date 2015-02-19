@@ -24,7 +24,7 @@
 ._border-right    { border-right: 1px solid @light-gray }
 ._border-bottom   { border-bottom: 1px solid @light-gray }
 ._max-text        { max-width: 700px; margin: auto }
-._center-cols     { text-align: center; & > * { float: none; display: inline-block; text-align: left; } }
+._center-cols     { text-align: center; & > * { float: none; display: inline-block; vertical-align: top; text-align: left; } }
 
 /*--------------------- Универсальные модификаторы (конец) --------------------
 */
@@ -79,6 +79,9 @@ a {
 
 	&._no-underline:hover    { text-decoration: none }
 }
+
+*:focus { outline: none }
+
 
 .slick-next:focus, .slick-prev:focus { outline: none !important }
 
@@ -1247,6 +1250,8 @@ footer a {
 
 .b-licences__caption {
 	padding-left: 50px;
+	font-weight: 500;
+	color: #111;
 }
 
 .b-gallery-page {

@@ -235,8 +235,7 @@ define('SIDEBAR_CLOSED', true);
 			<li data-equalheight class="col-xs-6 col-lg-4 b-laws__item">
 				<a class="b-laws__link" href="#">Приказ Минкомсвязи РФ от 19 ноября 2012г. №268</a>
 				<p class="b-laws__text">
-					«Об утверждении Правил применения оборудования систем коммутации, включая программное обеспечение, обеспечивающего выполнение установленных действий 
-					при проведении оперативно- разыскных мероприятий».
+					«Об утверждении Правил».
 				</p>
 			</li>
 			<li data-equalheight class="col-xs-6 col-lg-4 b-laws__item">

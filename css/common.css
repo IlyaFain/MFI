@@ -77,6 +77,7 @@
 ._center-cols > * {
   float: none;
   display: inline-block;
+  vertical-align: top;
   text-align: left;
 }
 /*--------------------- Универсальные модификаторы (конец) --------------------
@@ -126,6 +127,9 @@ a:active {
 }
 a._no-underline:hover {
   text-decoration: none;
+}
+*:focus {
+  outline: none;
 }
 .slick-next:focus,
 .slick-prev:focus {
@@ -1185,6 +1189,8 @@ footer a {
 }
 .b-licences__caption {
   padding-left: 50px;
+  font-weight: 500;
+  color: #111;
 }
 .b-gallery-page {
   position: relative;
@@ -2433,12 +2439,16 @@ footer a {
   height: 4px;
   background-color: #888;
 }
+.b-features__item ul {
+  padding-left: 13px;
+}
 .b-features__item li {
   -webkit-column-break-inside: avoid;
   -moz-column-break-inside: avoid;
   -o-column-break-inside: avoid;
   -ms-column-break-inside: avoid;
   column-break-inside: avoid;
+  list-style-type: inherit;
 }
 .b-features__text {
   max-width: 960px;

@@ -191,6 +191,10 @@ define('PAGE_NAME', 'main');
 		<h2>Отзывы</h2>
 	</div>
 
+	<div class="b-replies__read-all">
+		<a class="_underline" href="#">Все отзывы</a>
+	</div>
+
 	<div class="col-xs-6 col-lg-4">
 		<div class="b-replies__square _red">О продукте «Гарда БД»</div>
 		<h4 class="b-replies__author"><img src="img/logo/cps.png" alt="«CPS»"> Компания «CPS»</h4>
