@@ -93,7 +93,7 @@ define('SIDEBAR_CLOSED', true);
 
 
 
-	<div class="b-description _mb-l _border-bottom" id="menu1">
+	<div class="b-description _mb-l _border-bottom" id="menu1" data-menu-target>
 		<h2 class="text-center">Описание</h2>
 		<div class="row _mb-l">
 			<div class="col-lg-6 col-lg-offset-2" data-equalheight>
@@ -257,7 +257,7 @@ define('SIDEBAR_CLOSED', true);
 
 
 
-	<div class="b-reports _mb-l _border-bottom" id="menu2">
+	<div class="b-reports _mb-l _border-bottom" id="menu2" data-menu-target>
 		<h2 class="text-center">Схема подключения</h2>
 		<div class="b-reports__tabs _mb-m text-center" role="tabpanel">
 			<!-- Tab panes -->
@@ -322,7 +322,7 @@ define('SIDEBAR_CLOSED', true);
 
 
 
-	<div class="b-features _mb-l _border-bottom" id="menu3">
+	<div class="b-features _mb-l _border-bottom" id="menu3" data-menu-target>
 
 		<h2 class="text-center _mb-l">Новости и мероприятия</h2>
 
@@ -370,7 +370,7 @@ define('SIDEBAR_CLOSED', true);
 
 
 
-	<div class="b-licences _mb-l _border-bottom" id="menu4">
+	<div class="b-licences _mb-l _border-bottom" id="menu4" data-menu-target>
 
 		<h2 class="text-center _mb-l">Лицензии</h2>
 
@@ -391,7 +391,7 @@ define('SIDEBAR_CLOSED', true);
 
 
 
-	<div class="b-material-webinars _mb-l" id="menu5">
+	<div class="b-material-webinars _mb-l" id="menu5" data-menu-target>
 
 		<h2 class="text-center _mb-l">Материалы и вебинары</h2>
 
@@ -456,7 +456,7 @@ define('SIDEBAR_CLOSED', true);
 
 
 
-		<div class="row b-clients _mb-l" id="menu6">
+		<div class="row b-clients _mb-l" id="menu6" data-menu-target>
 			<div class="col-xs-12">
 				<h2 class="text-center">Клиенты</h2>
 			</div>

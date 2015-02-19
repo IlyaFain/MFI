@@ -274,34 +274,39 @@ $(function()
 			$htmlbody.stop(true,false).animate({scrollTop:scrollTop}, 500);
 		})
 
-		$('#menu1, #menu2, #menu3, #menu4, #menu5, #menu6').waypoint(
-			function()
-			{
-				var $current = $nav.find('[href=#' + $(this).attr("id") + ']');
-
-				$li.removeClass('_passed');
-
-				$current
-					.parent()
-					.addClass('_passed')
-					.prevAll()
-					.addClass('_passed');
-
-				// фикс для предпоследнего элемента
-				if ($current.parent().nextAll().length == 1)
+		$('[data-menu-target]').each(function(index, element)
+		{
+			var $this = $(element);
+			$this.waypoint(
+				function()
 				{
+					var $current = $nav.find('[href=#' + $this.attr("id") + ']');
 
-					$current.parent().next().addClass('_passed')
-				}
-				else
+					$li.removeClass('_passed');
+
+					$current
+						.parent()
+						.addClass('_passed')
+						.prevAll()
+						.addClass('_passed');
+
+					// фикс для предпоследнего элемента
+					if ($current.parent().nextAll().length == 1)
+					{
+
+						$current.parent().next().addClass('_passed')
+					}
+					else
+					{
+						$current.parent().nextAll().removeClass('_passed')
+					}
+				},
 				{
-					$current.parent().nextAll().removeClass('_passed')
+					offset: 400
 				}
-			},
-			{
-				offset: 400
-			}
-		);
+			);
+
+		});
 
 
 		var onScroll = function()
