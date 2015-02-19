@@ -730,7 +730,13 @@ a.b-replies__text:hover {
   max-height: none;
 }
 .b-replies__square {
+  display: block;
+  color: #000;
   padding-right: 100px;
+}
+.b-replies__square:hover {
+  color: #000;
+  text-decoration: none;
 }
 .b-replies__square:before {
   content: "■ ";
