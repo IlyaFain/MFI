@@ -96,7 +96,7 @@ define('SIDEBAR_CLOSED', true);
 	<div class="b-description _mb-l _border-bottom" id="menu1" data-menu-target>
 		<h2 class="text-center">Описание</h2>
 		<div class="row _mb-l">
-			<div class="col-lg-6 col-lg-offset-2" data-equalheight>
+			<div class="col-xs-6 col-xs-offset-2" data-equalheight>
 				<div class="_vertical-center">
 					<div class="text-left">
 						<p>МФИ Софт представляет группу решений для фильтрации интернет-трафика, а также предупреждения, обнаружения и подавления DDoS-атак различного типа в сети передачи данных.</p>
@@ -104,7 +104,7 @@ define('SIDEBAR_CLOSED', true);
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-2 text-center" data-equalheight>
+			<div class="col-xs-2 text-center" data-equalheight>
 				<img src="img/content/product-page_description.jpg" alt="">
 			</div>
 		</div>
