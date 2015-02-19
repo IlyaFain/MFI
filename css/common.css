@@ -1880,6 +1880,9 @@ footer a {
   font-size: 28px;
   font-weight: 500;
 }
+.b-solutions > div {
+  padding-left: 80px;
+}
 .b-solutions__wrapper {
   position: relative;
 }
@@ -1942,6 +1945,9 @@ footer a {
 }
 .b-tasks__list {
   margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
 }
 .b-tasks__item {
   text-align: center;
