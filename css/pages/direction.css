@@ -206,7 +206,7 @@
   line-height: 39px;
   padding: 0 15px;
   text-decoration: none;
-  color: #fff !important;
+  color: #fff;
   background-color: #888;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.15);
 }
