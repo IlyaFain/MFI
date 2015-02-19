@@ -49,14 +49,14 @@ $(function()
 
 			var loadPartners = function(regionCode)
 			{
-				var globalRusPartnersData = 
+				/*var globalRusPartnersData = 
 				{
 					"Inline Telecom Solutions": { url:"", info:"" },
 					"LETA": { url:"", info:"" },
 					"КРОК": { url:"", info:"" },
 					"Микротест": { url:"", info:"" },
 					"NVision Group": { url:"", info:"" }
-				};
+				};*/
 
 				$.ajax(
 				{
@@ -68,6 +68,8 @@ $(function()
 					{
 						var partnersData = typeof response[regionCode] != "undefined" ? response[regionCode] : {},
 							html = '';
+
+						var globalRusPartnersData = response["00"];
 
 						if (!isNaN(parseInt(regionCode)))
 						{
@@ -98,7 +100,9 @@ $(function()
 
 			var showRegion = function(regionCode)
 			{
-				$('path[class="st0 _active"]').attr("class", "st0");
+				if (regionCode === "00") $('path').attr("class", "st0 _active");
+				else $('path[class="st0 _active"]').attr("class", "st0");
+
 				$('path[data-code="' + regionCode + '"]').attr("class", "st0 _active");
 			}
 

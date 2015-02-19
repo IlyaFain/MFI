@@ -517,17 +517,51 @@ a._no-underline:hover {
 .b-direction__link:hover .b-direction__text {
   display: inline-block;
 }
+.b-direction__link:hover:after {
+  -webkit-opacity: 0.7;
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}
+.b-direction__link:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
 .b-direction__link._sec {
   background-image: url(../img/bg/sec.png);
+}
+.b-direction__link._sec:after {
+  background-color: #ac67d0;
 }
 .b-direction__link._sorm {
   background-image: url(../img/bg/sorm.png);
 }
+.b-direction__link._sorm:after {
+  background-color: #326bd4;
+}
 .b-direction__link._traff {
   background-image: url(../img/bg/traff.png);
 }
+.b-direction__link._traff:after {
+  background-color: #fbc52f;
+}
 .b-direction__link._fraud {
   background-image: url(../img/bg/fraud.png);
+}
+.b-direction__link._fraud:after {
+  background-color: #8fb419;
 }
 @media screen and (min-width: 1366px) {
   .b-direction__link._sec {
@@ -552,6 +586,8 @@ a._no-underline:hover {
   text-transform: uppercase;
 }
 .b-direction__text {
+  position: relative;
+  z-index: 2;
   display: none;
   /* display: inline-block; */
   line-height: 20px;
@@ -2583,7 +2619,7 @@ footer a {
 }
 .b-partners__data > li {
   padding-left: 15px;
-  list-style-type: number;
+  list-style-type: decimal;
   list-style-position: inside;
 }
 .b-partners__data > li._no-number {

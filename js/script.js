@@ -448,6 +448,38 @@ $(function()
 
 	})();
 
+
+
+
+	(function AutoScroll()
+	{
+		$('.btn-group').each(function(index, element)
+		{
+			var $buttons = $(element).children(),
+				isHover = false;
+
+			$buttons
+				.on("mouseenter", function() { isHover = true })
+				.on("mouseleave", function() { isHover = false });
+
+			setInterval(function()
+			{
+				var $next = $buttons.filter('.active').next();
+
+				if (!isHover)
+				{
+					if ($next.length) $next.trigger("click");
+					else $buttons.first().trigger("click");
+				}
+				
+			}, 3000)
+
+		});
+
+	})();
+
+
+
 	
 
 	

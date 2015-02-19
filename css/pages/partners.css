@@ -36,7 +36,7 @@
 }
 .b-partners__data > li {
   padding-left: 15px;
-  list-style-type: number;
+  list-style-type: decimal;
   list-style-position: inside;
 }
 .b-partners__data > li._no-number {

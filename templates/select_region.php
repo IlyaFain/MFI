@@ -1,3 +1,4 @@
+<option value="00">Вся Россия</option>
 <option value="01">Республика Адыгея</option>
 <option value="04">Республика Алтай</option>
 <option value="22">Алтайский край</option>
