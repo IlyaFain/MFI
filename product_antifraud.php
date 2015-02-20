@@ -83,7 +83,7 @@ define('SIDEBAR_CLOSED', true);
 
 		<div class="row _mb-l b-reports__buttons">
 			<div class="col-xs-12 text-center _clearfix">
-				<div class="btn-group" role="group" aria-label="...">
+				<div data-autoscroll class="btn-group" role="group" aria-label="...">
 					<a type="button" class="btn btn-default active" data-toggle="tab" href="#tab1">Аналитика</a>
 					<a type="button" class="btn btn-default" data-toggle="tab" href="#tab2">Анализ</a>
 					<a type="button" class="btn btn-default" data-toggle="tab" href="#tab3">Хранилище</a>

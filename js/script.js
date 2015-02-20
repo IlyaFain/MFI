@@ -453,7 +453,7 @@ $(function()
 
 	(function AutoScroll()
 	{
-		$('.btn-group').each(function(index, element)
+		$('.btn-group[data-autoscroll]').each(function(index, element)
 		{
 			var $buttons = $(element).children(),
 				isHover = false;
