@@ -1368,7 +1368,7 @@ footer a {
   vertical-align: middle;
   width: 60px;
   height: 60px;
-  background-image: url(../img/icon/file_format.png);
+  background-image: url(../img/icon/file_format.png?v2);
   background-repeat: no-repeat;
 }
 .b-pressbook__file._ai {
@@ -1383,6 +1383,9 @@ footer a {
 .b-pressbook__file._zip {
   background-position: -180px 0px;
 }
+.b-pressbook__file._pdf {
+  background-position: -240px 0px;
+}
 .b-pressbook__file._ai:hover {
   background-position: 0px -60px;
 }
@@ -1394,6 +1397,9 @@ footer a {
 }
 .b-pressbook__file._zip:hover {
   background-position: -180px -60px;
+}
+.b-pressbook__file._pdf:hover {
+  background-position: -240px -60px;
 }
 .b-pressbook__text {
   float: left;

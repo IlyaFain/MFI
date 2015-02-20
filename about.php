@@ -261,7 +261,7 @@
 			</div>
 		</li>
 		<li class="col-xs-6 col-lg-4 _mb-m" data-equalheight>
-			<a class="b-pressbook__file-link" href="#"><i class="b-pressbook__file _zip"></i></a>
+			<a class="b-pressbook__file-link" href="#"><i class="b-pressbook__file _pdf"></i></a>
 			<div class="b-pressbook__text">
 				<div>
 					<a class="b-pressbook__title" href="#">Буклет «Информационная безопасность»</a>
