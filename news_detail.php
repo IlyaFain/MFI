@@ -84,23 +84,35 @@
 					<h3>Другие статьи</h3>
 					<ul class="b-news__list _articles _small-text">
 						<li>
+							<img alt="" src="img/content/articles/1.jpg" class="b-news__img">
+							<div class="b-news__pad">
 								<div class="_mb-xxs"><a class="_underline" href="#">Расширенный анализ рынка DLP-систем в&nbsp;России</a></div>
 								Выставка InfoSecurity Russia 2014
 								Одно из&nbsp;ключевых событий года пройдет 
 								с&nbsp;24 по&nbsp;26 сентября в&nbsp;Крокус Экспо, Москва
+							</div>
 						</li>
 						<li>
+							<img alt="" src="img/content/articles/2.jpg" class="b-news__img">
+							<div class="b-news__pad">
 								<div class="_mb-xxs"><a class="_underline" href="#">«МФИ СОФТ»: Развиваться с&nbsp;опережением</a></div>
 								Решение «МФИ Софт» признано «Проектом года 2013» в&nbsp;номинации «Информационная безопасность».
+							</div>
 						</li>
 						<li>
+							<img alt="" src="img/content/articles/3.jpg" class="b-news__img">
+							<div class="b-news__pad">
 								<div class="_mb-xxs"><a class="_underline" href="#">Расширенный анализ рынка DLP-систем в России</a></div>
 								V&nbsp;Всероссийская Конференция «Revenue Assurance, Fraud, InfoSecurity &amp; Risk Management»
+							</div>
 						</li>
 
 						<li>
+							<img alt="" src="img/content/articles/4.jpg" class="b-news__img">
+							<div class="b-news__pad">
 								<div class="_mb-xxs"><a class="_underline" href="#">Расширенный анализ рынка DLP-систем в России</a></div>
 								V&nbsp;Всероссийская Конференция «Revenue Assurance, Fraud, InfoSecurity &amp; Risk Management»
+							</div>
 						</li>
 					</ul>
 				</div>

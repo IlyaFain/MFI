@@ -559,15 +559,31 @@ a {
 			img { width: 110px }
 			a { font-size: 14px }
 			& > li { margin-bottom: 15px }
-			.b-news__pad { padding-left: 140px; }
+			// .b-news__pad { padding-left: 140px; }
 		}
 
 		&._big-text {
 			a { font-size: 16px; font-weight: 500; }
 			img { width: 140px }
 			& > li { margin-bottom: 20px }
-			.b-news__pad { padding-left: 170px; }
+			// .b-news__pad { padding-left: 170px; }
 		}
+
+		.b-news__img {
+			display: none;
+		}
+
+		.b-news__pad {
+			padding-left: 0;
+		}
+	}
+}
+
+@media screen and (min-width: 1366px) {
+	.b-news__list._articles {
+		.b-news__img { display: block; }
+		&._small-text .b-news__pad { padding-left: 140px; }
+		&._big-text .b-news__pad { padding-left: 170px; }
 	}
 }
 
