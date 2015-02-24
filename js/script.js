@@ -458,9 +458,15 @@ $(function()
 			var $buttons = $(element).children(),
 				isHover = false;
 
-			$buttons
-				.on("mouseenter", function() { isHover = true })
-				.on("mouseleave", function() { isHover = false });
+			$buttons.each(function(index, element)
+			{
+				var id = $(element).attr("href");
+				console.log(id)
+
+				$(id)
+					.on("mouseenter", function() { isHover = true; console.log(isHover); })
+					.on("mouseleave", function() { isHover = false ; console.log(isHover);});
+			});
 
 			setInterval(function()
 			{
@@ -477,6 +483,9 @@ $(function()
 		});
 
 	})();
+
+
+
 
 
 
@@ -502,3 +511,15 @@ $(function()
 
 
 });
+
+
+
+
+function onYouTubePlayerReady(playerId) {
+  ytplayer = document.getElementById("myytplayer");
+  ytplayer.addEventListener("onStateChange", "onytplayerStateChange");
+}
+
+function onytplayerStateChange(newState) {
+   alert("Player's new state: " + newState);
+}
