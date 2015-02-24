@@ -659,6 +659,15 @@ a._no-underline:hover {
     padding-left: 170px;
   }
 }
+.b-news__list._articles._preview-always .b-news__img {
+  display: block !important;
+}
+.b-news__list._articles._preview-always._small-text .b-news__pad {
+  padding-left: 140px !important;
+}
+.b-news__list._articles._preview-always._big-text .b-news__pad {
+  padding-left: 170px !important;
+}
 .b-news__img {
   float: left;
   margin-right: 25px;
