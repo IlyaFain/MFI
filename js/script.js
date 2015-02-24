@@ -515,11 +515,4 @@ $(function()
 
 
 
-function onYouTubePlayerReady(playerId) {
-  ytplayer = document.getElementById("myytplayer");
-  ytplayer.addEventListener("onStateChange", "onytplayerStateChange");
-}
 
-function onytplayerStateChange(newState) {
-   alert("Player's new state: " + newState);
-}

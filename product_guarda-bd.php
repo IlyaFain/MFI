@@ -60,7 +60,8 @@ define('SIDEBAR_CLOSED', true);
 				<div role="tabpanel" class="tab-pane fade" id="tab2">
 					<div class="row">
 						<div class="col-xs-6 text-right">
-							<img src="img/content/notebook_report.jpg" alt="">
+							<iframe allowfullscreen="" frameborder="0" height="360" 
+							src="https://www.youtube.com/embed/XNJDL-YyGJo?rel=0&controls=0&enablejsapi=1&playerapiid=ytplayer&version=3" width="640"></iframe>
 						</div>
 						<div class="col-xs-5">
 							<h2>Понятный интерфейс «Гарда БД» адаптирован под ежедневные задачи </h2>
@@ -83,7 +84,7 @@ define('SIDEBAR_CLOSED', true);
 
 		<div class="row _mb-l b-reports__buttons">
 			<div class="col-xs-12 text-center _clearfix">
-				<div class="btn-group" role="group" aria-label="...">
+				<div class="btn-group" role="group" aria-label="..." data-autoscroll>
 					<a type="button" class="btn btn-default active" data-toggle="tab" href="#tab1">Аналитика</a>
 					<a type="button" class="btn btn-default" data-toggle="tab" href="#tab2">Анализ</a>
 					<a type="button" class="btn btn-default" data-toggle="tab" href="#tab3">Хранилище</a>
