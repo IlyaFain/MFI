@@ -141,7 +141,7 @@ define('SIDEBAR_CLOSED', true);
 
 
 
-		<div id="features_collapse" class="collapse" aria-expanded="true">
+		<div id="features_collapse" class="collapse" aria-expanded="true" data-show-all>
 
 			<div class="b-features__text">
 
@@ -208,13 +208,13 @@ define('SIDEBAR_CLOSED', true);
 
 
 
-		<div class="text-center">
+		<!-- <div class="text-center">
 			<div class="text-center _mb-l">
 				<a class="b-features__more" href="#features_scroll_top" data-toggle="collapse" data-target="#features_collapse">
 					<span></span><i></i>
 				</a>
 			</div>
-		</div>
+		</div> -->
 
 
 
