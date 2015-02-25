@@ -60,8 +60,11 @@ define('SIDEBAR_CLOSED', true);
 				<div role="tabpanel" class="tab-pane fade" id="tab2">
 					<div class="row">
 						<div class="col-xs-6 text-right">
-							<iframe allowfullscreen="" frameborder="0" height="360" 
-							src="https://www.youtube.com/embed/XNJDL-YyGJo?rel=0&controls=0&enablejsapi=1&playerapiid=ytplayer&version=3" width="640"></iframe>
+
+							<a href="http://www.youtube.com/watch?v=XNJDL-YyGJo" data-litebox>
+								<img src="img/content/video.jpg" alt="">
+							</a>
+
 						</div>
 						<div class="col-xs-5">
 							<h2>Понятный интерфейс «Гарда БД» адаптирован под ежедневные задачи </h2>

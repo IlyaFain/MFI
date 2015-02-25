@@ -486,26 +486,28 @@ $(function()
 
 
 
+// Core functions defined at http://stackoverflow.com/q/7988536#7988536
+var player;
+YT_ready(function(){
+    var frameID = getFrameID("ytplayer");
+    if (frameID) { //If the frame exists
+        player = new YT.Player(frameID, {
+            events: {
+                "onStateChange": function(event){
 
+                	console.log("STATE", event);
 
-
-	
-
-	
-
-	/*$('[data-fancybox]').fancybox({
-		'width'				: '75%',
-		'height'			: '75%',
-        'autoScale'     	: false,
-        'transitionIn'		: 'none',
-		'transitionOut'		: 'none',
-		'type'				: 'iframe'
-	});*/
-
-
-
-	//showModal('#modal_vacancy')
-
+                    if(event.data == "0") {
+                        //The video has finished
+                        alert("The video has finished!");
+                        //Do something, example: play again
+                        player.playVideo();
+                    }
+                }
+            }
+        });
+    }
+});
 
 
 
