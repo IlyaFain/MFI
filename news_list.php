@@ -22,7 +22,7 @@
 
 		<div class="b-articles-list _mb-l">
 
-			<ul class="b-news__list _articles _big-text">
+			<ul class="b-news__list _articles _preview-always _big-text">
 				<li>
 					<img alt="" src="img/content/articles/1.jpg" class="b-news__img">
 					<div class="b-news__pad">
