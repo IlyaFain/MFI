@@ -26,7 +26,7 @@ define('PAGE_NAME', 'main');
 	<div class="col-xs-6 col-lg-3 b-direction__item">
 		<div class="b-direction__item-wrapper">
 			<img src="img/bg/direction_square.png" alt="">
-			<a href="" class="b-direction__link js-parallax-bg _sec">
+			<a href="" class="b-direction__link js-parallax-bg js-timed-hover _sec">
 				<span class="b-direction__title">Информационная<br>безопасность</span>
 				<span class="b-direction__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque alias dolor perferendis, voluptatum numquam inventore voluptas quod, fugit quia beatae odio magni repellat quos eaque accusamus id, ipsa reprehenderit.</span>
 			</a>
@@ -35,7 +35,7 @@ define('PAGE_NAME', 'main');
 	<div class="col-xs-6 col-lg-3 b-direction__item">
 		<div class="b-direction__item-wrapper">
 			<img src="img/bg/direction_square.png" alt="">
-			<a href="" class="b-direction__link js-parallax-bg _sorm">
+			<a href="" class="b-direction__link js-parallax-bg js-timed-hover _sorm">
 				<span class="b-direction__title">СОРМ</span>
 				<span class="b-direction__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ab ex fugiat aspernatur velit repellendus placeat dolores optio obcaecati, ullam incidunt quasi id amet, perferendis nulla quo suscipit accusantium, voluptate.</span>
 			</a>
@@ -44,7 +44,7 @@ define('PAGE_NAME', 'main');
 	<div class="col-xs-6 col-lg-3 b-direction__item">
 		<div class="b-direction__item-wrapper">
 			<img src="img/bg/direction_square.png" alt="">
-			<a href="" class="b-direction__link js-parallax-bg _traff">
+			<a href="" class="b-direction__link js-parallax-bg js-timed-hover _traff">
 				<span class="b-direction__title">Фильтрация<br>трафика</span>
 				<span class="b-direction__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium officiis reiciendis soluta, minus repudiandae dolorem eos hic sapiente animi quam nobis dolores natus velit voluptatibus culpa, inventore cupiditate maiores rem?</span>
 			</a>
@@ -53,7 +53,7 @@ define('PAGE_NAME', 'main');
 	<div class="col-xs-6 col-lg-3 b-direction__item">
 		<div class="b-direction__item-wrapper">
 			<img src="img/bg/direction_square.png" alt="">
-			<a href="" class="b-direction__link js-parallax-bg _fraud">
+			<a href="" class="b-direction__link js-parallax-bg js-timed-hover _fraud">
 				<span class="b-direction__title">Антифрод</span>
 				<span class="b-direction__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores laborum nesciunt voluptate inventore eaque iusto illo totam ipsum possimus sunt, iste, voluptatem ab, laboriosam. Eligendi consequuntur ipsum inventore autem atque.</span>
 			</a>
