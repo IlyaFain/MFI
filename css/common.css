@@ -80,6 +80,9 @@
   vertical-align: top;
   text-align: left;
 }
+._show-li-dots li {
+  list-style-type: inherit;
+}
 /*--------------------- Универсальные модификаторы (конец) --------------------
 */
 /*

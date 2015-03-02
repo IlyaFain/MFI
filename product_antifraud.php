@@ -170,29 +170,34 @@ define('SIDEBAR_CLOSED', true);
 					</div>
 					<div class="col-xs-6">
 						<div class="b-features__item _mb-l">
-							<h3 class="_mb-xs">Критерии анализа</h3>•&nbsp;&nbsp;&nbsp;Имя пользователя в БД 
-							•&nbsp;&nbsp;&nbsp;IP-адрес <br>
-							•&nbsp;&nbsp;&nbsp;Результат аутентификации (успешная/неуспешная) <br>
-							•&nbsp;&nbsp;&nbsp;Объем данных запроса, превышающий указанную величину <br>
-							•&nbsp;&nbsp;&nbsp;Объем данных ответа, превышающий указанную величину <br>
-							•&nbsp;&nbsp;&nbsp;Количество записей в ответе, превышающее указанную величину <br>
-							•&nbsp;&nbsp;&nbsp;Дата/время запроса <br>
-							•&nbsp;&nbsp;&nbsp;Имя пользователя в ОС <br>
-							•&nbsp;&nbsp;&nbsp;Название используемого клиентского приложения <br>
-							•&nbsp;&nbsp;&nbsp;Запрашиваемые/передаваемые поля таблицы, синонима,<br>
-							представления <br>
-							•&nbsp;&nbsp;&nbsp;Ключевое слово (поиск в запросах, ответах и переменных) <br>
-							•&nbsp;&nbsp;&nbsp;Тип SQL-команды <br>
-							&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;SELECT <br>
-							&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;ALTER USER <br>
-							&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;DROP VIEW <br>
-							&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;Другие <br>
-							•&nbsp;&nbsp;&nbsp;Имя объектов БД <br>
-							&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;Процедура <br>
-							&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;Функция <br>
-							&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;Представление <br>
-							&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;Таблица <br>
-							&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;Синоним<br>
+							<h3 class="_mb-xs">Критерии анализа</h3>
+							<ul>
+								<li>Имя пользователя в БД </li>
+								<li>IP-адрес </li>
+								<li>Результат аутентификации (успешная/неуспешная) </li>
+								<li>Объем данных запроса, превышающий указанную величину </li>
+								<li>Объем данных ответа, превышающий указанную величину </li>
+								<li>Количество записей в ответе, превышающее указанную величину </li>
+								<li>Дата/время запроса </li>
+								<li>Имя пользователя в ОС </li>
+								<li>Название используемого клиентского приложения </li>
+								<li>Запрашиваемые/передаваемые поля таблицы, синонима,</li>
+								представления <br>
+								<li>Ключевое слово (поиск в запросах, ответах и переменных) </li>
+								<li>Тип SQL-команды <br>
+									-&nbsp;SELECT <br>
+									-&nbsp;ALTER USER <br>
+									-&nbsp;DROP VIEW <br>
+									-&nbsp;Другие <br>
+								</li>
+								<li>Имя объектов БД <br>
+									-&nbsp;Процедура <br>
+									-&nbsp;Функция <br>
+									-&nbsp;Представление <br>
+									-&nbsp;Таблица <br>
+									-&nbsp;Синоним<br>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -276,6 +281,11 @@ define('SIDEBAR_CLOSED', true);
 						<img src="img/content/scheme.png" alt="">
 					</div>
 					<div class="_max-text">
+						<ul class="_show-li-dots">
+							<li>Пункт 1</li>
+							<li>Пункт 2</li>
+							<li>Пункт 3</li>
+						</ul>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus distinctio numquam tempore eaque at doloribus hic, sint dolor esse modi iste ipsa aut nam odio adipisci veniam, quam sit ea! </p>
 					</div>
 				</div>
