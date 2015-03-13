@@ -463,7 +463,7 @@ $(function()
 				var id = $(element).attr("href");
 				console.log(id)
 
-				$(id)
+				$.merge($(id), $(element))
 					.on("mouseenter", function() { isHover = true; console.log(isHover); })
 					.on("mouseleave", function() { isHover = false ; console.log(isHover);});
 			});
