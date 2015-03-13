@@ -1157,6 +1157,7 @@ footer a {
   background: #810295;
 }
 .b-car__hr-person {
+  height: 100%;
   background: #efefef;
   padding: 25px;
 }

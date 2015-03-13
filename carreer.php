@@ -118,7 +118,7 @@
 			<h2 class="_mb-m">HR - отдел</h2>
 
 			<div class="row">
-				<div class="col-xs-6">
+				<div class="col-xs-6" data-equalheight>
 
 					<div class="b-car__hr-person">
 						<div class="_clearfix">
@@ -138,17 +138,15 @@
 						<div class="row">
 							<div class="col-xs-6">
 								<p>Телефон: +7 (831) 220-32-35</p>
-								<p>Факс: +7 (831) 220-32-21</p>
 							</div>
 							<div class="col-xs-6">
-								<p>ICQ: 239507773</p>
 								<p>E-mail: <a class="_underline" href="mailto:a.tsukareva@mfisoft.ru">a.tsukareva@mfisoft.ru</a></p>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-xs-6">
+				<div class="col-xs-6" data-equalheight>
 					<div class="b-car__hr-person">
 						<div class="_clearfix">
 							<div class="b-car__hr-person-photo">
