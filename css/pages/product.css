@@ -416,7 +416,6 @@
   line-height: 15px;
 }
 .b-features__title span {
-  border-bottom: 1px dotted;
   cursor: pointer;
 }
 .b-features__item {
