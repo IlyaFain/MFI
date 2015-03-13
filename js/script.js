@@ -478,7 +478,7 @@ $(function()
 					else $buttons.first().trigger("click");
 				}
 				
-			}, 3000)
+			}, 10000)
 
 		});
 
