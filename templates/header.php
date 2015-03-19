@@ -75,6 +75,12 @@
 			</div>
 		</div>
 
+		<div class="b-sidebar__search">
+			<form action="" method="post">
+				<input class="b-sidebar__search-input" type="text" name="search" placeholder="Поиск">
+			</form>
+		</div>
+
 		<a id="sidebar_goto_top" href="#" class="b-sidebar__goto-top">Наверх</a>
 	</div>
 

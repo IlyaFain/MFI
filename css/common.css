@@ -415,6 +415,19 @@ a._no-underline:hover {
   color: #fff;
   text-decoration: none;
 }
+.b-sidebar__search {
+  margin-top: 50px;
+  padding-left: 15px;
+}
+.b-sidebar__search-input {
+  width: 160px;
+  height: 36px;
+  line-height: 36px;
+  background: #9fa7af;
+  border: 0;
+  font-size: 18px;
+  padding: 0 14px;
+}
 .b-content {
   position: relative;
   padding: 20px 50px 0;
